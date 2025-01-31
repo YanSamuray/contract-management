@@ -1,0 +1,6 @@
+ID_Tipo_Pagamento,Descrição_Pagamento
+1,Boleto Bancário
+2,Cartão de Crédito
+3,Transferência Bancária
+4,Depósito
+5,Pix

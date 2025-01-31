@@ -1,0 +1,6 @@
+ID_Tipo_Contrato,Descrição_Tipo,Categoria_Tipo
+1,Fornecimento,Produtos
+2,Prestação de Serviços,Serviços
+3,Locação,Imóveis
+4,Parceria,Negócios
+5,Distribuição,Logística

@@ -1,0 +1,6 @@
+ID_Tipo_Violação,Descrição_Violação,Categoria_Violação
+1,Atraso na Entrega,Operacional
+2,Não Conformidade,Qualidade
+3,Inadimplência,Financeiro
+4,Quebra de Exclusividade,Legal
+5,Uso Indevido de Marca,Marketing
