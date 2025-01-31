@@ -1,0 +1,12 @@
+name: geracao_ficticios
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - faker
+  - numpy
+  - pip
+  - pip:
+      - python-dateutil

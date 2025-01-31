@@ -1,0 +1,25 @@
+# Caches e arquivos compilados
+__pycache__/
+*.py[cod]
+*.pyc
+
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.backup
+*.swp
+*.bak
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Configurações de sistema e IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Ambiente virtual
+.venv/
+venv/
+dashboards/Gestão de Contratos.pbix
