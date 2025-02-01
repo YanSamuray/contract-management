@@ -26,3 +26,5 @@ venv/
 # Arquivos de BI
 dashboards/Contratos.pbix
 dashboards/Gestão de Contratos.pbix
+**/localSettings.json
+**/cache.abf
