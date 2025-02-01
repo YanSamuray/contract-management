@@ -1,0 +1,61 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Consultas
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup Dimensões
+
+	annotation PBI_QueryGroupOrder = 1
+
+queryGroup Fatos
+
+	annotation PBI_QueryGroupOrder = 2
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBIDesktopVersion = 2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55
+
+annotation PBI_QueryOrder = ["folder","database","dProfissionais","dFornecedores","dTipo_Pagamento","dClientes","dTipo_Violação","dTipo_Contrato","dCalendario","fViolações","fContratos","fPagamentos","*Medidas","Atualizacao"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table dProfissionais
+ref table dFornecedores
+ref table dTipo_Pagamento
+ref table dClientes
+ref table dTipo_Violação
+ref table dTipo_Contrato
+ref table dCalendario
+ref table DateTableTemplate_a16c3c81-152b-4afb-9034-d26df0bd56e4
+ref table LocalDateTable_fcc1e736-385f-40a6-a173-d26ecb18f806
+ref table LocalDateTable_f61f193b-f883-4402-8ddc-3100f6f4ab5f
+ref table LocalDateTable_2e89982c-0211-4c14-8751-528d8ea1f077
+ref table LocalDateTable_6a916a48-dc13-4f8a-95bd-3d28192d2082
+ref table LocalDateTable_471080e1-91a7-4be1-b2bf-b0fdc4924fa7
+ref table LocalDateTable_6990d21b-80bd-4a09-854a-ac1fe635894b
+ref table LocalDateTable_8bee5b76-3a99-47f8-9871-81646123216b
+ref table LocalDateTable_3bca1b55-00c5-47a0-9da9-dc2de61be442
+ref table LocalDateTable_0ac64b58-4784-4bec-8fb1-8042af0ee9f6
+ref table LocalDateTable_351d4bb1-b0ed-4d3e-a97f-f78ac86d8685
+ref table LocalDateTable_4e6a7cb6-ca40-4924-8b48-27c5e2f57808
+ref table fViolações
+ref table LocalDateTable_0968d325-5370-405a-8bf8-c4f44d29393a
+ref table fContratos
+ref table LocalDateTable_8f8ed260-a4ed-4286-bba7-f1ab64479fff
+ref table LocalDateTable_73bfbee9-a8f9-45e8-971d-4726768c0198
+ref table fPagamentos
+ref table LocalDateTable_eb7fa2ff-acc6-416c-b5f7-6393c3f69d4f
+ref table *Medidas
+ref table LocalDateTable_1db94e9d-dbce-401a-ba58-28442a9dd678
+ref table Atualizacao
+ref table LocalDateTable_03e926cc-6931-45fe-b9e0-836a301a11d2
+
+ref cultureInfo pt-BR
+

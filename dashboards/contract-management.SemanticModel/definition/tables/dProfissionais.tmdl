@@ -1,0 +1,66 @@
+table dProfissionais
+	lineageTag: 1925eaf3-f40d-4015-9517-0365c5f3886f
+
+	column ID_Profissional
+		dataType: int64
+		formatString: 0
+		lineageTag: 7882aae8-11fb-40db-b11e-6f5da29e9238
+		summarizeBy: sum
+		sourceColumn: ID_Profissional
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nome_Profissional
+		dataType: string
+		lineageTag: bf1f29a9-f66c-47fb-ab68-38b7ca24d023
+		summarizeBy: none
+		sourceColumn: Nome_Profissional
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria_Profissional
+		dataType: string
+		lineageTag: f316a118-7f3f-45f3-a9ee-63c9d305cfd9
+		summarizeBy: none
+		sourceColumn: Categoria_Profissional
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: 709ceadd-d5b3-428a-abfa-d0a4caf1250a
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: 65315d2c-daaa-4ea0-9784-a703ef51b02f
+		summarizeBy: none
+		sourceColumn: ID_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dProfissionais = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Dim_Profissionais.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    PromotedHeaders = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    ChangedType = Table.TransformColumnTypes(PromotedHeaders,{{"ID_Profissional", Int64.Type}, {"Nome_Profissional", type text}, {"Categoria_Profissional", type text}, {"Departamento", type text}, {"ID_Contrato", Int64.Type}})
+				in
+				    ChangedType
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -13,7 +13,7 @@ def gerar_dim_clientes(num_clientes: int) -> pd.DataFrame:
     clientes = []
     for _ in range(num_clientes):
         cliente = {
-            'ID_Cliente': fake.unique.random_int(min=1000, max=9999),
+            'ID_Cliente': fake.unique.random_int(min=1000, max=99999),
             'Nome_Cliente': fake.company(),
             'Segmento': random.choice(['Varejo', 'Tecnologia', 'Saúde', 'Financeiro', 'Educação']),
             'Localização': fake.city(),
@@ -27,7 +27,7 @@ def gerar_dim_fornecedores(num_fornecedores: int) -> pd.DataFrame:
     fornecedores = []
     for _ in range(num_fornecedores):
         fornecedor = {
-            'ID_Fornecedor': fake.unique.random_int(min=5000, max=9999),
+            'ID_Fornecedor': fake.unique.random_int(min=1000, max=99999),
             'Nome_Fornecedor': fake.company(),
             'Categoria': random.choice(['Matérias-primas', 'Serviços', 'Equipamentos', 'Consultoria']),
             'Localização': fake.city(),

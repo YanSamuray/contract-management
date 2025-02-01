@@ -1,0 +1,30 @@
+table *Medidas
+	lineageTag: 65f59834-0014-4160-834a-4f6119974c73
+
+	column *Medidas
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: bef464bb-3d4f-460d-8d1a-9fe69f791480
+		summarizeBy: none
+		sourceColumn: *Medidas
+
+		variation Variation
+			isDefault
+			relationship: 774e3bf6-6f52-409b-9929-c5da838ade91
+			defaultHierarchy: LocalDateTable_1db94e9d-dbce-401a-ba58-28442a9dd678.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition *Medidas = m
+		mode: import
+		source =
+				let
+				    // Usa a consulta para gerar a data e hora da última atualização e organizar as medidas
+				    Source =  DateTimeZone.SwitchZone(DateTimeZone.FixedUtcNow(), 0)
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = DateTimeZone
+

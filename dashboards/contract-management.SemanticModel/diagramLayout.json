@@ -1,0 +1,178 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1229.4394146832092,
+            "y": 451.67309336104768
+          },
+          "nodeIndex": "*Medidas",
+          "nodeLineageTag": "65f59834-0014-4160-834a-4f6119974c73",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1513.4394146832092,
+            "y": 451.67309336104768
+          },
+          "nodeIndex": "Atualizacao",
+          "nodeLineageTag": "457d079a-4554-4f73-9551-e5357eeb101e",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1797.4394146832092,
+            "y": 353.67309336104768
+          },
+          "nodeIndex": "dCalendario",
+          "nodeLineageTag": "0b59579a-92d9-4c40-bca7-732a53767c90",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 173.86308333908869,
+            "y": 797.04051538278884
+          },
+          "nodeIndex": "dClientes",
+          "nodeLineageTag": "c6ae8b0d-be41-4f5d-a687-10080d2ad815",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 465.69643742339349,
+            "y": 797.34618672209535
+          },
+          "nodeIndex": "dFornecedores",
+          "nodeLineageTag": "3463952a-024a-4487-a719-48032bcf0475",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 706.52504324563438,
+            "y": 544.68009836850285
+          },
+          "nodeIndex": "dProfissionais",
+          "nodeLineageTag": "1925eaf3-f40d-4015-9517-0365c5f3886f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 94.1986474303497,
+            "y": 539.12709823474029
+          },
+          "nodeIndex": "dTipo_Contrato",
+          "nodeLineageTag": "bb884999-08cd-423f-afd2-776f571c2215",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": -10
+          },
+          "nodeIndex": "dTipo_Pagamento",
+          "nodeLineageTag": "273282ac-1ae7-41ca-9b4d-0951e9e94640",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 955.43941468320918,
+            "y": 98.244806730565415
+          },
+          "nodeIndex": "dTipo_Violação",
+          "nodeLineageTag": "e95ea8c2-957b-45fc-8de8-989c8319c10c",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 381.30089910431457,
+            "y": 447.83847007411981
+          },
+          "nodeIndex": "fContratos",
+          "nodeLineageTag": "91389370-1529-4437-8aee-b77043ccc470",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 178.41754355699831,
+            "y": 170.46529444378757
+          },
+          "nodeIndex": "fPagamentos",
+          "nodeLineageTag": "07fc8a68-0125-4743-a58a-3c67e3ef7f4c",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 668.38300224074555,
+            "y": 243.87793829971633
+          },
+          "nodeIndex": "fViolações",
+          "nodeLineageTag": "94cec6bc-0c30-4813-b2de-6939c5d5b449",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

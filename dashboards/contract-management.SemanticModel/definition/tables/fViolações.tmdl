@@ -1,0 +1,91 @@
+table fViolações
+	lineageTag: 94cec6bc-0c30-4813-b2de-6939c5d5b449
+
+	column ID_Violação
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d757731-842f-4126-b72e-7fd9485c7002
+		summarizeBy: sum
+		sourceColumn: ID_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: 46bf3428-d6e5-4373-b379-3ce428ed28e5
+		summarizeBy: none
+		sourceColumn: ID_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Violação
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a929e3e4-7e64-4836-b987-9afc21aa9de0
+		summarizeBy: none
+		sourceColumn: Data_Violação
+
+		variation Variation
+			isDefault
+			relationship: ead5b8b5-8f88-4cb8-8471-898dfd9d99da
+			defaultHierarchy: LocalDateTable_0968d325-5370-405a-8bf8-c4f44d29393a.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ID_Tipo_Violação
+		dataType: int64
+		formatString: 0
+		lineageTag: 72440d7c-54f4-4bea-a61b-80adf756dddd
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descrição_Violação
+		dataType: string
+		lineageTag: 7b3dde0a-880b-45d0-a2a2-7893468d1dc3
+		summarizeBy: none
+		sourceColumn: Descrição_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ação_Tomada
+		dataType: string
+		lineageTag: 27f12780-f327-4f10-a65d-39b2fec68597
+		summarizeBy: none
+		sourceColumn: Ação_Tomada
+
+		annotation SummarizationSetBy = Automatic
+
+	column Severidade
+		dataType: string
+		lineageTag: 9ab69ac0-711f-4ca2-b2b5-edf25bbcf454
+		summarizeBy: none
+		sourceColumn: Severidade
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fViolações = m
+		mode: import
+		queryGroup: Fatos
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Fato_Violacoes.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Violação", Int64.Type}, {"ID_Contrato", Int64.Type}, {"Data_Violação", type date}, {"ID_Tipo_Violação", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

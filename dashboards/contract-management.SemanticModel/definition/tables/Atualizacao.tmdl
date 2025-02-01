@@ -1,0 +1,32 @@
+table Atualizacao
+	lineageTag: 457d079a-4554-4f73-9551-e5357eeb101e
+
+	column Atualizacao
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 76837e9a-d3b6-423a-8905-5fa1b180055f
+		summarizeBy: none
+		sourceColumn: Atualizacao
+
+		variation Variation
+			isDefault
+			relationship: afea0a5e-5841-47b4-90f2-e6013a1a5eee
+			defaultHierarchy: LocalDateTable_03e926cc-6931-45fe-b9e0-836a301a11d2.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Atualizacao = m
+		mode: import
+		source =
+				let
+				    // Consulta os Fluxos de Dados do Power BI
+				    Origem = Date.From(DateTimeZone.LocalNow())
+				in
+				    Origem
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Date
+

@@ -1,0 +1,49 @@
+table dTipo_Violação
+	lineageTag: e95ea8c2-957b-45fc-8de8-989c8319c10c
+
+	column ID_Tipo_Violação
+		dataType: int64
+		formatString: 0
+		lineageTag: 95ec11c3-4bbf-492f-aa96-a963f28c87c7
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descrição_Violação
+		dataType: string
+		lineageTag: d2aca7ce-dc69-489e-9a2a-1906b6f2cdca
+		summarizeBy: none
+		sourceColumn: Descrição_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria_Violação
+		dataType: string
+		lineageTag: 5b9f124e-026b-46ab-b007-252ee9c257c4
+		summarizeBy: none
+		sourceColumn: Categoria_Violação
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dTipo_Violação = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Dim_Tipo_Violacao.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Tipo_Violação", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

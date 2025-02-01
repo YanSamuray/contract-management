@@ -1,0 +1,84 @@
+table fPagamentos
+	lineageTag: 07fc8a68-0125-4743-a58a-3c67e3ef7f4c
+
+	column ID_Pagamento
+		dataType: int64
+		formatString: 0
+		lineageTag: 34ed04c4-0f0c-46ca-a818-7c159fd54750
+		summarizeBy: sum
+		sourceColumn: ID_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: e0b49cc2-233a-4a50-bae2-06835142bf3b
+		summarizeBy: none
+		sourceColumn: ID_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Pagamento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7c30d2ee-80eb-42d6-b3b0-6c856e85f430
+		summarizeBy: none
+		sourceColumn: Data_Pagamento
+
+		variation Variation
+			isDefault
+			relationship: d07006c1-5839-4b6c-befc-437b21dbe511
+			defaultHierarchy: LocalDateTable_eb7fa2ff-acc6-416c-b5f7-6393c3f69d4f.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Valor_Pagamento
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 4f7c9d15-f2b1-400a-bb2d-477202e72631
+		summarizeBy: sum
+		sourceColumn: Valor_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Método_Pagamento
+		dataType: string
+		lineageTag: 3e83c340-c281-4369-b6ce-1df3c6d739f3
+		summarizeBy: none
+		sourceColumn: Método_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Tipo_Pagamento
+		dataType: int64
+		formatString: 0
+		lineageTag: 99a97a83-4102-43cc-8af0-e086d7fe7cba
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fPagamentos = m
+		mode: import
+		queryGroup: Fatos
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Fato_Pagamentos.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Pagamento", Int64.Type}, {"ID_Contrato", Int64.Type}, {"Data_Pagamento", type date}, {"Valor_Pagamento", Currency.Type}, {"ID_Tipo_Pagamento", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_ResultType = Table
+

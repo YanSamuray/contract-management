@@ -1,0 +1,117 @@
+relationship 2e69392b-199b-49a5-b60b-d190154a1b6b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.Data
+	toColumn: LocalDateTable_fcc1e736-385f-40a6-a173-d26ecb18f806.Date
+
+relationship d6419299-1f84-4d95-b754-ad2035eb3e84
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.AnoInicio
+	toColumn: LocalDateTable_f61f193b-f883-4402-8ddc-3100f6f4ab5f.Date
+
+relationship 9bf8c01a-c365-4086-a8a5-41caa24ab23c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.AnoFim
+	toColumn: LocalDateTable_2e89982c-0211-4c14-8751-528d8ea1f077.Date
+
+relationship 7ea028d5-03ff-4e13-ba25-8d66551140d2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.MesInicio
+	toColumn: LocalDateTable_6a916a48-dc13-4f8a-95bd-3d28192d2082.Date
+
+relationship 123cc435-77f8-4679-9490-f1ec5f8edc7a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.MesFim
+	toColumn: LocalDateTable_471080e1-91a7-4be1-b2bf-b0fdc4924fa7.Date
+
+relationship 024fbda9-330d-4843-8a0d-a5e0f8b66aa1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.TrimestreInicio
+	toColumn: LocalDateTable_6990d21b-80bd-4a09-854a-ac1fe635894b.Date
+
+relationship 48537494-18f6-4850-9bf5-044ff71d2ab6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.TrimestreFim
+	toColumn: LocalDateTable_8bee5b76-3a99-47f8-9871-81646123216b.Date
+
+relationship f9fb6664-7c7c-41ff-8f0a-54006d276297
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.SemanaIsoInicio
+	toColumn: LocalDateTable_3bca1b55-00c5-47a0-9da9-dc2de61be442.Date
+
+relationship 1c706a04-2b7b-47a1-be91-54178e66d019
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.SemanaIsoFim
+	toColumn: LocalDateTable_0ac64b58-4784-4bec-8fb1-8042af0ee9f6.Date
+
+relationship f34ffb65-ec95-456f-8eb1-77405af28f8a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.SemanaInicio
+	toColumn: LocalDateTable_351d4bb1-b0ed-4d3e-a97f-f78ac86d8685.Date
+
+relationship 2991204f-47f9-4b17-81b4-9ea9466e01a2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dCalendario.SemanaFim
+	toColumn: LocalDateTable_4e6a7cb6-ca40-4924-8b48-27c5e2f57808.Date
+
+relationship ead5b8b5-8f88-4cb8-8471-898dfd9d99da
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fViolações.Data_Violação
+	toColumn: LocalDateTable_0968d325-5370-405a-8bf8-c4f44d29393a.Date
+
+relationship 2327787c-cc68-43a0-b2fd-58a5a8b32bc6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fContratos.Data_Início
+	toColumn: LocalDateTable_8f8ed260-a4ed-4286-bba7-f1ab64479fff.Date
+
+relationship 48861bc2-fb64-48a7-932b-195cc8834cb5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fContratos.Data_Término
+	toColumn: LocalDateTable_73bfbee9-a8f9-45e8-971d-4726768c0198.Date
+
+relationship d07006c1-5839-4b6c-befc-437b21dbe511
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fPagamentos.Data_Pagamento
+	toColumn: LocalDateTable_eb7fa2ff-acc6-416c-b5f7-6393c3f69d4f.Date
+
+relationship 774e3bf6-6f52-409b-9929-c5da838ade91
+	joinOnDateBehavior: datePartOnly
+	fromColumn: *Medidas.*Medidas
+	toColumn: LocalDateTable_1db94e9d-dbce-401a-ba58-28442a9dd678.Date
+
+relationship afea0a5e-5841-47b4-90f2-e6013a1a5eee
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Atualizacao.Atualizacao
+	toColumn: LocalDateTable_03e926cc-6931-45fe-b9e0-836a301a11d2.Date
+
+relationship AutoDetected_ac682836-e5f7-4433-8501-9407d714eed8
+	fromColumn: dProfissionais.ID_Contrato
+	toColumn: fContratos.ID_Contrato
+
+relationship AutoDetected_079da775-27ee-4ced-adb2-4bd49cbfd558
+	fromColumn: fViolações.ID_Contrato
+	toColumn: fContratos.ID_Contrato
+
+relationship AutoDetected_1f0d985a-63f3-47df-bae8-a2f93b1dfe81
+	fromColumn: fPagamentos.ID_Contrato
+	toColumn: fContratos.ID_Contrato
+
+relationship AutoDetected_ff590373-6629-411e-8549-debffb3db08e
+	fromColumn: fContratos.ID_Fornecedor
+	toColumn: dFornecedores.ID_Fornecedor
+
+relationship AutoDetected_d2d97c70-8bab-4533-9717-bde6cf016eb4
+	fromColumn: fPagamentos.ID_Tipo_Pagamento
+	toColumn: dTipo_Pagamento.ID_Tipo_Pagamento
+
+relationship AutoDetected_56120a37-e772-4602-aae6-11d7bba3c786
+	fromColumn: fContratos.ID_Cliente
+	toColumn: dClientes.ID_Cliente
+
+relationship AutoDetected_a06bae04-5c2d-4f66-9d68-f39851e2dad2
+	fromColumn: fViolações.ID_Tipo_Violação
+	toColumn: dTipo_Violação.ID_Tipo_Violação
+
+relationship AutoDetected_fa67b547-59df-4048-bd9b-8ce477820fa3
+	fromColumn: fContratos.ID_Tipo_Contrato
+	toColumn: dTipo_Contrato.ID_Tipo_Contrato
+

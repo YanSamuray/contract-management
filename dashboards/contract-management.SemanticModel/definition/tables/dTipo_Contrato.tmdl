@@ -1,0 +1,49 @@
+table dTipo_Contrato
+	lineageTag: bb884999-08cd-423f-afd2-776f571c2215
+
+	column ID_Tipo_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: 0f1bd779-b4a0-4a25-bd30-349ebddccc49
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descrição_Tipo
+		dataType: string
+		lineageTag: 96856fca-87ec-4c18-9e66-7b601c749053
+		summarizeBy: none
+		sourceColumn: Descrição_Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Categoria_Tipo
+		dataType: string
+		lineageTag: 057e737a-0daa-4da4-97ae-8e22b9a8eebe
+		summarizeBy: none
+		sourceColumn: Categoria_Tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dTipo_Contrato = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Dim_Tipo_Contrato.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Tipo_Contrato", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

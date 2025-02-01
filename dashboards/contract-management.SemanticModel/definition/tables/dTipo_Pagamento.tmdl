@@ -1,0 +1,41 @@
+table dTipo_Pagamento
+	lineageTag: 273282ac-1ae7-41ca-9b4d-0951e9e94640
+
+	column ID_Tipo_Pagamento
+		dataType: int64
+		formatString: 0
+		lineageTag: 200cde0f-25f3-45a8-b679-90560bc385cd
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descrição_Pagamento
+		dataType: string
+		lineageTag: 2e3cfe4d-d898-486e-a019-dfbab75bf6cf
+		summarizeBy: none
+		sourceColumn: Descrição_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dTipo_Pagamento = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Dim_Tipo_Pagamento.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Tipo_Pagamento", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

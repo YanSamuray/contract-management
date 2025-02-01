@@ -22,4 +22,7 @@ __pycache__/
 # Ambiente virtual
 .venv/
 venv/
+
+# Arquivos de BI
+dashboards/Contratos.pbix
 dashboards/Gestão de Contratos.pbix

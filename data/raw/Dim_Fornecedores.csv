@@ -1,51 +1,1501 @@
 ID_Fornecedor,Nome_Fornecedor,Categoria,Localização,Avaliação
-5058,Freitas,Serviços,Pereira,2
-6907,Cirino Marques S/A,Equipamentos,Ferreira de Santos,5
-7115,Alves Costela Ltda.,Equipamentos,Melo da Mata,1
-7427,Cirino,Consultoria,Caldeira,2
-9368,Castro,Matérias-primas,Casa Grande Grande,4
-6825,Moraes,Consultoria,da Costa,5
-6506,Freitas,Equipamentos,Ribeiro do Norte,3
-6083,Gonçalves S/A,Consultoria,Cardoso,3
-8442,Novaes,Serviços,Sousa Grande,5
-9842,da Rosa,Matérias-primas,Barros de Goiás,4
-8643,Porto,Matérias-primas,Garcia,3
-8347,Leão e Filhos,Matérias-primas,Macedo do Oeste,5
-8044,Melo,Equipamentos,Cirino,2
-5889,Camargo,Serviços,Vieira,4
-8654,Cirino,Equipamentos,Lopes da Serra,5
-7031,Fernandes,Equipamentos,Fogaça,3
-8788,Mendes S.A.,Serviços,Abreu dos Dourados,3
-8784,Cunha Ltda.,Consultoria,Vargas,4
-7467,Lima Santos - ME,Matérias-primas,Rocha,1
-9076,Nogueira Teixeira - ME,Serviços,Pires do Sul,3
-5989,Rios,Serviços,Abreu,2
-7101,Moura,Serviços,Macedo do Campo,4
-7069,da Paz,Consultoria,Peixoto,5
-5698,Barbosa Ltda.,Consultoria,Nascimento Alegre,1
-5968,Teixeira Castro S/A,Consultoria,da Rocha da Mata,5
-9258,Oliveira Moreira e Filhos,Consultoria,Nascimento,1
-5862,Porto,Serviços,Sousa Paulista,4
-7394,Freitas,Matérias-primas,Castro,3
-6010,Garcia - ME,Serviços,Carvalho de Novais,4
-7449,Pires,Consultoria,Souza de Leão,5
-6785,Mendonça,Matérias-primas,Monteiro do Norte,1
-8637,Casa Grande,Consultoria,Aragão de Pinto,3
-6767,Fogaça - ME,Equipamentos,Albuquerque do Galho,4
-5544,Rodrigues e Filhos,Matérias-primas,Abreu da Praia,4
-5337,Pinto S/A,Serviços,Porto da Mata,5
-6857,Sá Oliveira Ltda.,Matérias-primas,Caldeira,2
-8555,Silva,Matérias-primas,Gomes da Serra,4
-7709,Ramos,Consultoria,Casa Grande dos Dourados,3
-6208,Cardoso,Matérias-primas,Cirino,2
-8638,Vieira,Matérias-primas,Lima do Amparo,1
-8191,Vieira Costa - ME,Matérias-primas,Pastor,2
-5407,Andrade,Matérias-primas,Porto,5
-5693,Fonseca Araújo e Filhos,Serviços,da Conceição,3
-7437,Santos - EI,Equipamentos,Vargas da Praia,2
-8370,Aragão,Matérias-primas,Pacheco dos Dourados,4
-9015,Santos,Consultoria,Cunha de Fernandes,1
-7178,Aparecida S/A,Matérias-primas,Ferreira,3
-5031,Rezende,Consultoria,Carvalho,1
-5521,Rodrigues,Equipamentos,Pereira,2
-8248,Marques Correia Ltda.,Equipamentos,Pereira,1
+47038,Cassiano Cunha - EI,Consultoria,Rios do Campo,1
+33069,da Mota,Serviços,Cassiano,2
+21627,da Cunha,Matérias-primas,Sá de Montenegro,1
+19701,Sá,Serviços,Rocha,4
+22962,Sales,Consultoria,da Mata,5
+91824,Porto Ltda.,Equipamentos,Albuquerque,4
+61703,Machado,Consultoria,Fernandes de Minas,4
+43902,Albuquerque,Serviços,Sousa das Flores,1
+33624,Moreira,Matérias-primas,Rodrigues,3
+82639,Farias,Consultoria,Cavalcanti,2
+61424,Duarte,Consultoria,Aparecida do Norte,4
+31445,Cardoso S/A,Serviços,Mendonça da Serra,4
+6420,Leão,Equipamentos,Duarte Alegre,4
+26959,Moreira Pacheco - ME,Serviços,da Cunha,5
+16426,das Neves,Matérias-primas,Alves,4
+3156,Ramos,Consultoria,da Cruz da Prata,5
+63070,Fonseca Costa S.A.,Consultoria,Rios,3
+20379,Rodrigues Marques Ltda.,Matérias-primas,Moura do Norte,4
+47822,da Mota,Matérias-primas,Barbosa,1
+55316,Almeida Abreu S/A,Consultoria,Casa Grande,2
+30961,Silva,Matérias-primas,Moreira,1
+25598,Macedo - ME,Consultoria,Fonseca das Pedras,1
+12730,Pimenta - ME,Serviços,da Mota,5
+82050,Guerra S/A,Serviços,Costa de Goiás,2
+95721,Carvalho,Equipamentos,Carvalho de Rodrigues,4
+76832,Casa Grande,Consultoria,Porto,4
+7400,Machado S.A.,Consultoria,Porto,3
+31368,Freitas - ME,Equipamentos,Sampaio da Prata,5
+36141,Sampaio Silva e Filhos,Equipamentos,Marques das Flores,1
+41253,Machado,Serviços,Cassiano,1
+61346,Martins,Serviços,Cunha do Sul,4
+61124,Ribeiro Cassiano S.A.,Consultoria,Costela,4
+3707,Fernandes Campos Ltda.,Serviços,Costela de Rodrigues,1
+99088,Sales Lopes Ltda.,Matérias-primas,Peixoto de Campos,2
+21074,Duarte,Equipamentos,Sá,5
+44518,Albuquerque,Equipamentos,Camargo Alegre,1
+51622,Viana,Serviços,Viana,2
+92268,Sousa,Equipamentos,Castro,1
+45002,Alves,Equipamentos,Duarte,3
+13611,Jesus,Equipamentos,Pastor das Flores,3
+16396,Borges Cavalcanti Ltda.,Serviços,Moreira da Praia,1
+35470,Camargo,Consultoria,Carvalho da Praia,5
+39549,Alves Rios - ME,Matérias-primas,Moreira,2
+92027,Casa Grande,Serviços,Rezende Paulista,3
+47764,da Conceição da Cruz Ltda.,Matérias-primas,Mendonça,4
+98547,Sá,Equipamentos,Vasconcelos,4
+69794,da Mota,Matérias-primas,Garcia da Mata,3
+37253,Aparecida,Serviços,Silveira do Campo,1
+5574,Mendes,Matérias-primas,Ramos Grande,3
+64159,Sá - EI,Equipamentos,Pacheco,4
+94336,das Neves Sampaio e Filhos,Consultoria,Barros,3
+54495,Freitas Garcia - ME,Consultoria,Pereira Alegre,2
+68958,Brito S/A,Consultoria,Silva,5
+21716,Araújo Lima Ltda.,Serviços,Jesus de Porto,1
+40843,Lopes,Serviços,Moreira do Norte,1
+88281,Pinto Casa Grande S/A,Matérias-primas,Freitas,3
+42771,Rocha Borges S/A,Serviços,da Cruz,2
+6101,Correia,Serviços,Pires de Gomes,3
+89992,Pimenta,Serviços,Aragão,3
+46197,Gonçalves,Matérias-primas,Siqueira da Prata,5
+4996,Rocha,Serviços,Pereira,1
+91834,Correia,Consultoria,da Cunha de Carvalho,4
+49424,Abreu Nascimento S/A,Matérias-primas,da Conceição dos Dourados,1
+66897,Lopes,Consultoria,Fernandes,2
+53949,Mendonça Nunes e Filhos,Matérias-primas,Fernandes,4
+36114,Sá,Serviços,Freitas dos Dourados,3
+74970,Fernandes,Consultoria,Alves de Rezende,4
+78190,Abreu Ltda.,Equipamentos,Camargo de Cunha,5
+53987,Macedo,Consultoria,Silva de Correia,2
+65903,Fernandes,Consultoria,Sampaio,3
+69117,Barros S.A.,Serviços,Rocha do Norte,1
+91048,Ramos,Equipamentos,Araújo da Mata,1
+41197,Silva Oliveira - ME,Serviços,Sampaio,1
+66381,Freitas,Matérias-primas,Albuquerque,3
+50703,Cirino da Costa - EI,Matérias-primas,Cardoso,1
+71228,Moura S.A.,Matérias-primas,Pastor,5
+95568,Monteiro,Consultoria,Teixeira Paulista,2
+32980,Mendes,Equipamentos,Novais,2
+94957,Andrade S/A,Serviços,Lima das Flores,4
+89861,Pimenta Nogueira - ME,Matérias-primas,Andrade,3
+69449,Novaes,Equipamentos,Siqueira de Goiás,5
+32566,Martins S.A.,Equipamentos,Rodrigues,5
+2987,Aragão Oliveira e Filhos,Serviços,Abreu do Campo,1
+4323,Azevedo,Matérias-primas,Gonçalves,4
+79009,Vieira,Consultoria,Correia de Pires,5
+57575,Viana,Consultoria,da Cunha de Minas,2
+83269,Fernandes,Matérias-primas,Cavalcante de Goiás,1
+14605,Novaes,Matérias-primas,Costa,4
+27105,Guerra da Cruz S.A.,Serviços,Câmara,4
+67533,da Paz,Consultoria,Barbosa,3
+18938,Farias,Matérias-primas,Rocha,4
+52710,Brito,Serviços,Aragão,1
+95784,da Paz,Serviços,Araújo da Prata,4
+65733,Casa Grande,Equipamentos,Vargas das Flores,5
+14935,Fonseca S.A.,Equipamentos,da Conceição,3
+76867,Novais,Matérias-primas,Castro do Campo,4
+53149,Nogueira,Consultoria,Mendes,4
+58923,Costela,Equipamentos,da Luz,3
+63921,Oliveira,Equipamentos,Jesus,3
+24422,da Cruz,Matérias-primas,Caldeira de Farias,3
+36465,Albuquerque,Equipamentos,Garcia,4
+43429,da Mota,Equipamentos,Barbosa,5
+56640,Brito,Equipamentos,Montenegro,2
+79001,Silva Pires S/A,Consultoria,Siqueira,2
+59985,Mendes,Matérias-primas,Vieira,3
+75822,Mendonça,Matérias-primas,Sampaio,2
+1277,Novaes,Consultoria,Caldeira,1
+46763,Lopes,Serviços,Cavalcante,4
+60205,Nascimento,Equipamentos,Caldeira,3
+32901,Costa Araújo - EI,Equipamentos,da Cunha de Goiás,4
+27441,Cirino Ltda.,Matérias-primas,Aragão,1
+59359,Carvalho,Equipamentos,Mendonça,4
+89307,Sá - ME,Consultoria,Souza,3
+48511,Montenegro e Filhos,Consultoria,Andrade,3
+77128,Albuquerque Lopes S/A,Serviços,Moraes,5
+10461,Novaes,Serviços,Mendonça de Farias,2
+71682,Macedo - EI,Equipamentos,Fogaça de Campos,1
+58960,Fernandes,Serviços,Sá,1
+18350,Freitas Rezende e Filhos,Matérias-primas,da Paz,5
+8009,Rios,Matérias-primas,Nogueira,4
+86403,da Mota,Equipamentos,Montenegro,4
+78434,Ferreira,Consultoria,da Rocha do Amparo,5
+14996,da Conceição,Consultoria,Machado de Minas,2
+70688,da Mata,Serviços,Barbosa,2
+57036,Castro,Equipamentos,Barbosa,3
+28826,Araújo e Filhos,Matérias-primas,Pires de Souza,4
+77500,Monteiro,Serviços,Jesus,3
+80737,da Cunha,Equipamentos,Pinto da Praia,4
+18217,Alves,Matérias-primas,Rodrigues das Flores,2
+27109,Teixeira - ME,Consultoria,Sampaio,4
+72094,Garcia Silveira S/A,Matérias-primas,Araújo,4
+61950,Silveira,Serviços,Marques,5
+69173,Fogaça da Cruz S.A.,Consultoria,Fogaça,1
+63442,Aparecida S.A.,Matérias-primas,da Cunha Alegre,5
+39250,Porto - ME,Equipamentos,da Mota do Oeste,3
+89951,Farias,Consultoria,Lopes Grande,5
+18052,Peixoto Vargas S.A.,Equipamentos,Ferreira da Prata,5
+77557,Vasconcelos,Equipamentos,Vargas,5
+73495,da Paz,Serviços,Guerra Paulista,3
+57112,Peixoto Lopes - ME,Consultoria,Machado de Abreu,2
+70043,Siqueira,Equipamentos,Fogaça de Santos,2
+72863,Mendonça,Serviços,Gonçalves de Nascimento,3
+75428,Albuquerque S.A.,Consultoria,Nascimento,4
+83599,Fogaça Castro e Filhos,Consultoria,da Paz Paulista,5
+13834,Castro S.A.,Matérias-primas,Pacheco,3
+72091,Moraes,Serviços,Rodrigues do Sul,1
+87117,Borges,Serviços,Ramos Alegre,5
+75017,da Mota Castro - ME,Matérias-primas,Mendonça do Galho,1
+25030,Abreu,Equipamentos,da Conceição,5
+45780,Barros - ME,Consultoria,Mendes do Oeste,1
+85395,Nascimento,Matérias-primas,Mendes da Prata,5
+47888,Montenegro,Serviços,Casa Grande Alegre,4
+57105,Gomes,Serviços,Jesus,4
+6706,Vargas,Equipamentos,Rodrigues do Amparo,5
+73317,da Costa,Matérias-primas,Sales,3
+55476,Caldeira Albuquerque S.A.,Equipamentos,da Paz,3
+89271,Moraes,Matérias-primas,Gonçalves de Goiás,3
+82098,da Cunha,Consultoria,Fonseca do Campo,4
+49074,Casa Grande,Equipamentos,Andrade,4
+3472,Aparecida,Matérias-primas,Abreu,3
+87669,Teixeira Freitas Ltda.,Equipamentos,da Paz,1
+73313,Nogueira,Equipamentos,Costela,1
+90045,Moreira Pinto e Filhos,Serviços,Cassiano Paulista,5
+95991,Sousa S.A.,Matérias-primas,Santos de Jesus,2
+77737,Costa da Rosa - EI,Serviços,Nogueira,2
+51774,Albuquerque S.A.,Equipamentos,Duarte de Silveira,3
+91269,da Costa Gomes - ME,Consultoria,Pinto de Minas,1
+11250,Cardoso,Consultoria,Correia Verde,1
+20828,da Paz Pacheco - ME,Equipamentos,Viana de Cunha,5
+64563,da Paz,Consultoria,Cardoso,5
+35994,Machado - ME,Serviços,Caldeira de Rodrigues,5
+62471,Fonseca e Filhos,Matérias-primas,Moreira,2
+33437,Pires,Equipamentos,Duarte,3
+12558,Sampaio Garcia e Filhos,Matérias-primas,Leão,1
+79116,da Conceição S.A.,Matérias-primas,Silveira,5
+3622,Farias - ME,Matérias-primas,Sampaio de da Luz,2
+99524,Aragão Correia e Filhos,Serviços,da Rosa,1
+4264,Cirino S.A.,Serviços,Moreira do Oeste,2
+56913,Ferreira,Consultoria,Melo das Pedras,4
+25690,da Rosa,Serviços,Ribeiro,2
+69590,da Rosa,Equipamentos,Marques Verde,3
+75790,Sousa,Equipamentos,Nascimento da Serra,5
+9253,Costela,Consultoria,Andrade do Norte,5
+77641,Sampaio e Filhos,Matérias-primas,Porto,1
+90345,Cavalcanti S/A,Equipamentos,Ferreira de Cunha,3
+48262,Novais Carvalho - ME,Serviços,Barros da Praia,2
+84561,Nogueira Sousa Ltda.,Consultoria,Vasconcelos Paulista,2
+27147,Casa Grande,Serviços,da Luz,3
+17862,Nunes Porto e Filhos,Consultoria,Cavalcante,1
+76283,Rezende,Equipamentos,Vargas,3
+55685,Monteiro Araújo - EI,Consultoria,Ribeiro,3
+99455,Nascimento,Serviços,Correia,3
+33548,Jesus,Consultoria,Santos,1
+81995,da Paz - EI,Matérias-primas,Machado das Flores,5
+61408,Martins - ME,Matérias-primas,Mendonça,5
+33528,Aragão,Consultoria,Barros do Oeste,1
+69049,da Mata S.A.,Consultoria,Jesus de Cunha,1
+97232,Ribeiro,Consultoria,Jesus de Goiás,5
+51254,Cardoso da Conceição - ME,Equipamentos,Oliveira de Goiás,1
+34616,da Cunha S/A,Serviços,Teixeira do Campo,3
+29251,Fonseca,Consultoria,Sales,2
+68203,Sousa - EI,Equipamentos,Albuquerque de da Paz,4
+71932,Guerra,Matérias-primas,Pimenta da Praia,2
+69540,Casa Grande,Serviços,Ribeiro,3
+81443,Fogaça,Serviços,Fernandes Verde,3
+21084,Machado,Consultoria,Sá,4
+74563,da Mata Mendonça S/A,Equipamentos,Costa,5
+60073,Abreu Duarte - ME,Matérias-primas,Machado,1
+35739,Monteiro,Serviços,Vieira,1
+37746,Novais Macedo - EI,Matérias-primas,Costa,1
+91714,da Costa Sousa - EI,Consultoria,da Conceição de Goiás,1
+19140,da Rocha,Matérias-primas,da Rosa de Goiás,1
+85525,Cassiano,Equipamentos,Cavalcanti do Norte,2
+1346,Freitas,Equipamentos,Cirino,3
+16479,Mendes,Equipamentos,Vargas,3
+93628,Pereira,Serviços,Rios Grande,2
+61010,Cassiano Garcia - ME,Equipamentos,da Costa de Minas,3
+62203,Nunes,Equipamentos,Oliveira de Minas,5
+41413,Abreu,Matérias-primas,da Cruz de Monteiro,5
+61370,Brito,Consultoria,Vieira,5
+75385,Almeida Ltda.,Serviços,Vieira do Amparo,3
+25693,Brito,Equipamentos,da Paz,5
+34400,Carvalho Ltda.,Equipamentos,Rios de Caldeira,3
+29629,Farias Moura Ltda.,Consultoria,Ramos,1
+35032,Oliveira Ltda.,Matérias-primas,Ferreira Grande,3
+67285,Rodrigues,Serviços,Andrade,4
+91143,Guerra,Consultoria,Correia,1
+96629,Oliveira,Matérias-primas,Marques do Galho,3
+89298,Camargo S.A.,Equipamentos,Fonseca Grande,5
+48484,Moraes,Equipamentos,Silveira Verde,5
+9660,Rodrigues,Equipamentos,Abreu,1
+31264,Castro,Serviços,Ribeiro do Amparo,2
+12662,Câmara S/A,Serviços,Cirino,2
+13914,Aragão,Matérias-primas,Câmara,3
+51455,Barbosa,Matérias-primas,Monteiro,3
+20427,Caldeira,Consultoria,Rezende do Amparo,3
+75583,Abreu e Filhos,Serviços,Costa Grande,2
+31965,Teixeira Martins S.A.,Equipamentos,Vasconcelos da Praia,2
+18746,Barros,Serviços,Teixeira de Monteiro,5
+46642,Melo,Serviços,Rezende,2
+87130,Oliveira Costa - ME,Matérias-primas,Martins de Minas,2
+90229,Freitas,Serviços,Novaes,4
+13822,Costela,Serviços,Aragão,1
+55910,da Rosa e Filhos,Consultoria,Albuquerque,5
+80043,Rezende Ribeiro S/A,Serviços,Castro das Flores,5
+91366,Rezende Aparecida S.A.,Serviços,Sousa,5
+27406,Guerra,Consultoria,Jesus,2
+21813,Nunes - ME,Serviços,Pires Grande,5
+57225,Martins Campos Ltda.,Consultoria,Albuquerque,5
+14098,Teixeira,Serviços,da Paz das Flores,5
+81666,Correia - EI,Consultoria,Silveira Alegre,3
+1404,Rocha,Serviços,Vargas,2
+70311,da Cruz,Serviços,Pastor,5
+32728,Cirino Casa Grande S.A.,Serviços,da Rosa de Sá,1
+29393,da Cruz,Equipamentos,da Cruz,3
+40975,Ribeiro Sampaio e Filhos,Consultoria,Ferreira,3
+28569,Rodrigues,Equipamentos,Dias do Galho,1
+43973,Fonseca Novaes S/A,Matérias-primas,Alves de Castro,1
+52074,Marques,Serviços,da Cunha,1
+64688,Brito,Matérias-primas,Marques do Oeste,3
+92525,Nogueira,Consultoria,Barros do Galho,3
+22829,da Cruz - ME,Equipamentos,Araújo,2
+70795,Cardoso,Matérias-primas,Oliveira de Goiás,4
+44303,Peixoto Borges S.A.,Equipamentos,Aparecida,2
+28360,Monteiro Cassiano S/A,Serviços,Sales,4
+1924,Sá,Serviços,Machado,1
+70211,Azevedo Costa e Filhos,Serviços,Siqueira,5
+50690,da Rocha - ME,Serviços,Oliveira,5
+53159,Cassiano,Matérias-primas,Barros,5
+21131,Camargo,Serviços,Caldeira,5
+62699,Macedo Barros S.A.,Equipamentos,Pereira,2
+34471,Pires,Equipamentos,Costa Paulista,2
+64710,Ramos - ME,Consultoria,Azevedo,2
+63151,Costa,Serviços,Pimenta de Sousa,3
+30805,Moraes S/A,Matérias-primas,Guerra,3
+20861,Farias Fonseca - EI,Equipamentos,Garcia,2
+22320,Pires - ME,Consultoria,Farias do Oeste,2
+67462,Almeida Pacheco S/A,Equipamentos,Câmara,3
+20477,Sousa Vargas S.A.,Matérias-primas,Dias do Campo,1
+9372,Ferreira,Equipamentos,da Mota,5
+38281,Cassiano,Matérias-primas,Barbosa de Monteiro,5
+79803,Costa,Equipamentos,Sousa das Flores,1
+17244,Lopes,Matérias-primas,da Rosa,4
+89105,Martins,Matérias-primas,da Cruz,4
+25971,Martins,Matérias-primas,Novaes,3
+50768,Peixoto - ME,Equipamentos,Carvalho de Minas,2
+12923,Ribeiro,Equipamentos,Aragão do Amparo,2
+65304,Albuquerque - ME,Matérias-primas,das Neves Grande,4
+63731,Melo Cirino - ME,Consultoria,Lopes,1
+65549,Costa,Serviços,Ribeiro,3
+11617,Nascimento,Equipamentos,Caldeira,2
+97747,Vieira Albuquerque S/A,Matérias-primas,Silva,5
+57647,Sales,Serviços,da Cruz de Minas,5
+27877,Peixoto Camargo e Filhos,Serviços,da Cunha,4
+74442,Azevedo Lopes S/A,Serviços,Rodrigues,5
+57977,Rezende da Costa - ME,Matérias-primas,Sousa do Amparo,4
+79724,da Cruz,Matérias-primas,Barbosa,1
+90593,Cassiano,Matérias-primas,Sales Alegre,2
+72231,Sales,Equipamentos,Fernandes Grande,2
+78584,Garcia - ME,Equipamentos,Novais,5
+32032,Vargas Gomes S.A.,Serviços,da Rosa,4
+17899,Barbosa S/A,Serviços,Rios da Mata,2
+56525,Cirino da Conceição e Filhos,Serviços,Melo do Amparo,3
+94775,Sales Ltda.,Consultoria,Mendonça,5
+34918,Silva,Matérias-primas,da Rocha,4
+92663,Camargo,Matérias-primas,Cavalcanti das Pedras,2
+82938,Ribeiro Camargo - ME,Consultoria,Sampaio,4
+70400,Novais S.A.,Matérias-primas,Teixeira,1
+64354,Ramos - ME,Equipamentos,Costela,1
+22523,Souza,Matérias-primas,Sales,4
+15318,Nunes Oliveira S/A,Serviços,Carvalho das Flores,1
+41445,Novais,Consultoria,da Rocha de da Paz,3
+18958,Lopes Rios S.A.,Consultoria,Alves,3
+60440,Montenegro S.A.,Serviços,Pereira,4
+8572,Ramos Correia - EI,Consultoria,Sá Verde,1
+48862,Teixeira Lopes - EI,Matérias-primas,Barbosa,2
+27195,Nascimento,Equipamentos,Pimenta,2
+69963,Teixeira Ltda.,Serviços,Macedo do Amparo,4
+22973,Duarte Sousa e Filhos,Matérias-primas,Pereira da Serra,3
+45649,da Costa,Matérias-primas,Cunha,4
+84379,Rios Camargo e Filhos,Consultoria,Pinto de da Rosa,5
+72971,Jesus Moura Ltda.,Consultoria,Nogueira,4
+27066,da Mata,Serviços,das Neves da Mata,4
+95016,da Cruz S/A,Serviços,Aparecida,2
+25467,Barros,Matérias-primas,Teixeira,3
+19251,da Cruz,Matérias-primas,da Rosa,2
+48612,Barros e Filhos,Equipamentos,Dias,1
+83241,Pacheco Carvalho e Filhos,Matérias-primas,Cassiano Grande,2
+73878,Machado Cassiano - ME,Matérias-primas,Gomes,4
+37816,Aragão,Serviços,Gomes,5
+2731,Porto S.A.,Equipamentos,Montenegro,4
+94791,Aragão e Filhos,Consultoria,Fogaça Grande,3
+3404,Andrade Ltda.,Serviços,da Costa da Serra,4
+19803,Lima,Matérias-primas,Mendes de Goiás,3
+98802,da Cruz,Matérias-primas,Costa Verde,4
+93236,da Luz,Consultoria,Borges do Norte,5
+79785,Siqueira,Matérias-primas,Leão,5
+18332,Machado,Equipamentos,Andrade de Cunha,1
+30015,Ramos,Serviços,Guerra Grande,2
+52893,Vasconcelos Azevedo S.A.,Consultoria,Câmara,3
+53571,Aparecida,Consultoria,Câmara de Aparecida,1
+81895,Duarte,Matérias-primas,Cavalcante da Serra,2
+74538,Farias,Serviços,Vieira de Garcia,5
+50343,Teixeira da Rosa S/A,Consultoria,Moura,2
+98613,Cirino,Serviços,Freitas,5
+4997,Brito S.A.,Consultoria,Melo Alegre,1
+15507,Albuquerque Campos - ME,Consultoria,Camargo,4
+55612,Melo,Equipamentos,Aragão Grande,2
+2074,Pinto Silva - EI,Matérias-primas,Silveira,4
+47418,Borges Pastor - EI,Equipamentos,Sampaio Paulista,1
+39300,Monteiro S.A.,Serviços,da Luz do Norte,2
+28456,Vieira,Serviços,Ribeiro,1
+85657,Ribeiro,Consultoria,Duarte de Sales,4
+57864,Guerra - ME,Equipamentos,da Luz,3
+66887,Mendonça,Matérias-primas,Monteiro de Oliveira,5
+31068,Cunha Ltda.,Consultoria,Pires,2
+33877,da Cruz - EI,Matérias-primas,Caldeira Alegre,1
+99820,da Rocha Barbosa - ME,Serviços,Moreira,4
+39303,Pereira,Serviços,Araújo do Campo,2
+86839,Câmara - ME,Matérias-primas,Castro,1
+19244,Mendes Oliveira e Filhos,Matérias-primas,Martins,3
+36869,Aragão Pires Ltda.,Matérias-primas,Melo,4
+48505,da Costa Sales e Filhos,Consultoria,Silveira,3
+52044,Cunha,Serviços,Nunes,1
+43079,Ribeiro Borges e Filhos,Consultoria,Garcia,4
+22061,Campos Ltda.,Equipamentos,Barros,5
+29512,Barros - EI,Matérias-primas,Siqueira do Amparo,1
+74155,Nascimento,Serviços,Garcia do Campo,2
+42217,da Costa,Equipamentos,Carvalho,1
+38033,Farias,Equipamentos,Guerra,4
+54772,Freitas S.A.,Serviços,da Cruz,1
+30502,Pereira,Serviços,Nogueira,2
+55812,Cunha - ME,Consultoria,Sousa da Serra,2
+46330,Camargo,Equipamentos,Costela Grande,1
+99968,Cassiano - ME,Matérias-primas,Ferreira do Campo,1
+26819,Pereira,Matérias-primas,Pastor de Minas,2
+87509,Moura,Serviços,Siqueira,4
+54330,Gomes,Serviços,Macedo,5
+16648,da Paz S.A.,Matérias-primas,Sampaio,1
+9026,Viana,Matérias-primas,das Neves dos Dourados,5
+38872,Lopes Moura S.A.,Equipamentos,Moreira de Vargas,4
+39899,Duarte da Conceição S.A.,Serviços,Nunes,1
+25403,Pimenta Guerra Ltda.,Serviços,Sampaio das Pedras,3
+28911,Cavalcante,Equipamentos,Camargo,4
+6352,Moreira,Consultoria,Mendes da Serra,1
+81398,Moreira Lima e Filhos,Matérias-primas,Correia,2
+6756,Leão S/A,Consultoria,Fernandes,1
+38557,da Paz,Serviços,Teixeira do Norte,4
+34250,Moura,Consultoria,Souza Alegre,1
+65626,Rios,Equipamentos,Fogaça de Correia,2
+8507,Guerra Rodrigues Ltda.,Matérias-primas,Casa Grande,3
+96623,Vasconcelos,Serviços,da Mota,3
+48685,Siqueira,Equipamentos,Brito dos Dourados,1
+21847,Almeida,Serviços,Camargo do Galho,1
+8859,Albuquerque Ltda.,Equipamentos,Novaes,5
+71153,Sá Ltda.,Matérias-primas,Cunha,4
+83151,Costa Porto S.A.,Equipamentos,da Paz da Mata,2
+82576,Sá,Matérias-primas,da Luz,2
+68557,Andrade,Consultoria,Teixeira,2
+46232,Vasconcelos,Equipamentos,da Mota,2
+50558,da Conceição,Equipamentos,Sá,4
+99142,Abreu,Consultoria,Moura,1
+59569,Camargo - EI,Serviços,Viana de Sales,3
+53295,Silveira Garcia S/A,Matérias-primas,Barros,2
+51447,Freitas - ME,Matérias-primas,Mendonça da Serra,4
+29261,Rios Sampaio - ME,Matérias-primas,Vieira das Flores,3
+9326,Rezende Rezende - EI,Serviços,Sales do Sul,3
+80451,Alves S/A,Serviços,Macedo,1
+25522,da Cunha - EI,Consultoria,Câmara,5
+48010,Ferreira da Luz S.A.,Equipamentos,Siqueira,4
+49947,Fonseca S.A.,Equipamentos,Costa Paulista,3
+45923,da Mota,Matérias-primas,Cardoso Alegre,5
+87921,Dias S.A.,Matérias-primas,da Costa,5
+26530,Santos,Serviços,da Conceição,3
+68675,Montenegro,Equipamentos,Correia,3
+36896,Dias,Equipamentos,Farias,5
+42115,Moraes,Matérias-primas,Carvalho de Azevedo,2
+43504,Pimenta e Filhos,Matérias-primas,Moura,3
+17200,Cirino Pinto Ltda.,Serviços,Abreu dos Dourados,5
+98911,Machado,Matérias-primas,da Luz,3
+94080,Vieira - ME,Matérias-primas,Cardoso de Rios,4
+9815,Peixoto S.A.,Equipamentos,Camargo,4
+32850,da Mota,Serviços,Oliveira,1
+95461,Costela Ramos - EI,Serviços,Santos,1
+39865,Moura Araújo S/A,Equipamentos,da Luz,2
+27602,Aragão,Serviços,Siqueira da Serra,4
+25842,Sales,Serviços,da Mata,1
+8233,Nogueira Costa - ME,Consultoria,Campos,3
+83728,Azevedo,Consultoria,Ramos do Amparo,2
+30984,da Luz,Consultoria,Cardoso da Praia,4
+68307,Freitas,Matérias-primas,Rocha do Norte,1
+80669,Sousa e Filhos,Consultoria,Rocha,1
+23331,Caldeira,Serviços,Siqueira do Campo,2
+14485,Dias Ltda.,Consultoria,Gomes de Minas,4
+57970,Campos,Serviços,Porto,4
+57705,Sousa,Serviços,Peixoto,5
+32589,Pires Borges - EI,Consultoria,Gomes de Moura,2
+5686,Fonseca,Equipamentos,Azevedo de Montenegro,5
+2843,da Luz - ME,Equipamentos,das Neves,2
+38783,Costa,Matérias-primas,Alves,4
+91943,Ramos,Serviços,Cunha da Praia,2
+24133,Carvalho,Equipamentos,Macedo do Galho,5
+99104,Silva e Filhos,Matérias-primas,Vasconcelos Paulista,3
+10084,Duarte,Matérias-primas,Gonçalves da Serra,3
+51450,da Paz,Matérias-primas,Macedo,4
+44592,Gonçalves,Consultoria,Brito,3
+92987,Abreu e Filhos,Consultoria,Costela de da Rosa,4
+12693,Montenegro,Serviços,Cunha das Flores,1
+3771,Oliveira Fernandes Ltda.,Serviços,Monteiro,5
+86509,Cavalcante,Consultoria,Siqueira de Goiás,2
+46630,Jesus,Equipamentos,Marques do Sul,1
+44234,Costa,Matérias-primas,Costela,3
+63687,Caldeira,Equipamentos,Pires das Pedras,2
+48533,Casa Grande,Equipamentos,Novais das Pedras,2
+52555,Monteiro Ltda.,Serviços,Pacheco,3
+51538,Macedo,Equipamentos,Mendes,4
+24728,Viana Melo - EI,Equipamentos,Pinto de Garcia,4
+84646,Vasconcelos - EI,Consultoria,Sampaio do Norte,3
+24504,Nunes,Serviços,Caldeira,5
+64381,Farias Monteiro - ME,Equipamentos,Mendes,1
+11796,Rezende,Matérias-primas,Rezende,1
+58588,Leão,Equipamentos,da Paz,2
+6538,da Cruz,Consultoria,Fogaça de Lima,5
+95546,Peixoto,Consultoria,Rodrigues,1
+4391,Sá Ltda.,Matérias-primas,Sousa de Costela,5
+39581,Siqueira Ltda.,Serviços,Monteiro,3
+3431,Macedo S/A,Matérias-primas,da Rocha do Campo,5
+48818,Moura,Serviços,da Rosa,3
+18453,Fonseca,Matérias-primas,Gomes,4
+94367,Aragão Ltda.,Equipamentos,Barros do Campo,1
+48087,Monteiro,Matérias-primas,Barros da Serra,2
+41329,Marques Nunes - ME,Consultoria,Farias do Galho,2
+91776,Sousa,Serviços,Rios de Almeida,1
+93076,Albuquerque,Consultoria,Albuquerque,4
+89355,Sá Viana - EI,Serviços,Freitas,1
+57279,da Cruz S/A,Serviços,Pires,4
+70953,Azevedo,Equipamentos,Ribeiro,5
+39425,Guerra,Equipamentos,Costa,5
+41940,Viana Ltda.,Consultoria,da Mota de da Mota,1
+89838,Marques Ltda.,Consultoria,Camargo,1
+10627,Câmara,Serviços,Sousa,1
+46822,Porto Camargo S/A,Matérias-primas,da Rosa,5
+16015,Nascimento,Matérias-primas,Pires de Cassiano,3
+15014,Carvalho,Consultoria,Duarte do Amparo,5
+62440,da Paz - ME,Serviços,Leão,1
+20607,Ribeiro e Filhos,Consultoria,Cunha do Oeste,1
+77290,da Costa - ME,Consultoria,Fogaça de Minas,5
+37799,Pinto,Equipamentos,Costela,4
+69696,Gomes,Equipamentos,da Rocha,1
+17415,Sousa Ltda.,Consultoria,Andrade,3
+53310,Brito e Filhos,Equipamentos,Guerra,4
+77257,Azevedo Ltda.,Equipamentos,Viana de Goiás,5
+87860,Monteiro,Consultoria,da Paz,5
+81345,Mendonça Camargo S/A,Equipamentos,Jesus da Praia,2
+36776,Rezende,Consultoria,Nunes Grande,3
+62873,Carvalho S/A,Equipamentos,Silveira,1
+70915,Vargas,Equipamentos,Barbosa,2
+92170,Moraes,Serviços,da Luz,4
+31559,Monteiro S.A.,Matérias-primas,Gonçalves dos Dourados,5
+44553,Rodrigues Câmara - EI,Equipamentos,Abreu de Cunha,2
+87831,Borges,Matérias-primas,Moura,3
+34604,Teixeira - EI,Matérias-primas,Casa Grande,4
+90841,Pereira,Equipamentos,da Costa de Cirino,2
+65558,Lima,Serviços,Rios,5
+97143,Monteiro,Equipamentos,Cirino,3
+81640,Fernandes Machado S/A,Consultoria,Nunes do Oeste,2
+35988,Melo S/A,Consultoria,Santos,1
+11891,Mendes - ME,Consultoria,Nogueira,5
+8891,Vieira,Equipamentos,da Rocha,3
+46421,Cunha Lima Ltda.,Serviços,Alves de Leão,5
+70115,Cunha S/A,Serviços,Oliveira de Abreu,3
+56044,Abreu,Equipamentos,Cassiano da Serra,2
+62610,da Cunha Castro Ltda.,Matérias-primas,da Rocha,5
+4500,da Mata Ltda.,Equipamentos,Camargo,1
+18593,Moura Cardoso - EI,Consultoria,Monteiro,5
+66771,da Mota S/A,Equipamentos,Moraes das Flores,2
+66282,Vargas,Matérias-primas,Rios Verde,2
+23544,Monteiro Farias Ltda.,Matérias-primas,Barros de Minas,1
+28435,Borges - EI,Matérias-primas,Ferreira,3
+45607,Vieira,Consultoria,Moraes de Minas,3
+79347,Ferreira Campos - ME,Serviços,Araújo,5
+7154,Andrade - EI,Matérias-primas,Albuquerque do Oeste,3
+40623,Aparecida - ME,Consultoria,Pereira,1
+81699,Nascimento,Consultoria,Gonçalves,2
+54462,da Paz Ferreira - EI,Consultoria,Gomes dos Dourados,5
+54568,Ribeiro,Consultoria,Barros Grande,4
+44611,Mendonça,Equipamentos,Viana,4
+69690,da Cruz Castro S/A,Serviços,das Neves,2
+64060,Fonseca - EI,Equipamentos,da Paz da Mata,4
+21599,Jesus,Matérias-primas,Cassiano,2
+83202,Fogaça Rezende - EI,Matérias-primas,Marques,2
+60805,Jesus Ltda.,Matérias-primas,Correia,2
+22263,Ramos,Serviços,Aragão,2
+5510,Duarte,Matérias-primas,Ferreira,5
+48051,Pimenta,Serviços,Costa,5
+21495,Silveira,Consultoria,Costa de Pacheco,2
+7818,Duarte,Serviços,Porto Grande,5
+76422,Siqueira,Matérias-primas,Garcia,2
+78153,Correia,Matérias-primas,Vieira,2
+57066,Porto,Matérias-primas,Araújo,4
+29912,da Mota Abreu - ME,Matérias-primas,Martins dos Dourados,1
+30839,da Paz,Equipamentos,da Costa,2
+3567,Sampaio,Equipamentos,Correia,3
+75383,Ramos e Filhos,Consultoria,Fernandes,5
+33706,Rodrigues,Matérias-primas,da Rosa das Pedras,4
+60967,Leão Correia - ME,Matérias-primas,Macedo da Praia,3
+68646,Pinto,Matérias-primas,Marques da Prata,3
+20014,Santos,Equipamentos,Fonseca,4
+13493,da Conceição Andrade S/A,Consultoria,da Mota,3
+82185,da Mota,Serviços,Rodrigues,3
+18042,Nogueira,Matérias-primas,Cavalcanti,4
+61084,Gonçalves,Matérias-primas,Porto,2
+70210,Freitas,Matérias-primas,Duarte,1
+49683,Fernandes Silveira - EI,Consultoria,Jesus de Souza,5
+62791,Ramos,Equipamentos,Abreu,4
+18822,Sousa - ME,Consultoria,Aragão de Fonseca,4
+80484,Macedo,Serviços,Santos de Jesus,2
+69336,da Paz,Consultoria,Silveira,4
+85423,Pinto - ME,Equipamentos,Machado do Campo,5
+66372,Abreu - EI,Equipamentos,Abreu das Flores,2
+90700,Pinto Fonseca Ltda.,Serviços,Cassiano,4
+98388,Souza - EI,Serviços,Duarte do Oeste,1
+91371,Cavalcanti,Serviços,Oliveira do Oeste,5
+9647,Casa Grande Silva e Filhos,Equipamentos,Albuquerque do Oeste,2
+53408,Vargas Viana S/A,Consultoria,Cunha,4
+56443,Carvalho e Filhos,Serviços,Ramos de da Cruz,1
+34428,Andrade - EI,Equipamentos,Duarte,2
+46891,da Mota S/A,Consultoria,Moreira,5
+40016,Sousa Pacheco Ltda.,Serviços,Viana de Minas,3
+30262,Castro,Equipamentos,Martins,3
+21393,Câmara,Serviços,Costa de Goiás,3
+5473,da Mata Araújo - ME,Matérias-primas,Silveira do Oeste,1
+33207,Sousa,Serviços,Guerra de Monteiro,5
+68405,Santos Freitas S.A.,Matérias-primas,da Mota,2
+50661,Albuquerque,Equipamentos,Rezende da Serra,3
+70608,Ramos,Equipamentos,Ramos,1
+44586,da Luz,Consultoria,Santos do Norte,1
+87319,Pires e Filhos,Serviços,Carvalho de da Mata,5
+1645,Nunes e Filhos,Consultoria,Silveira,3
+98106,Guerra - ME,Serviços,Jesus,4
+61958,Pastor Ltda.,Serviços,Aragão,4
+89769,Rodrigues,Consultoria,Duarte,3
+23622,Nascimento Silveira Ltda.,Consultoria,Sales de Gonçalves,3
+27943,Azevedo Vieira Ltda.,Serviços,Nogueira de Goiás,5
+86831,Pinto,Matérias-primas,Duarte,3
+53269,Moraes - ME,Equipamentos,Lopes Grande,2
+6985,da Luz S/A,Matérias-primas,Oliveira,2
+7089,Aparecida,Matérias-primas,Lima,2
+63226,Ferreira,Matérias-primas,Garcia da Praia,1
+33674,Fogaça,Equipamentos,Nascimento de Carvalho,5
+58176,Martins,Consultoria,Rocha,1
+27087,Albuquerque,Consultoria,Carvalho,1
+17358,Moura da Mata Ltda.,Matérias-primas,Castro de Sousa,4
+64911,Guerra,Matérias-primas,Correia das Flores,3
+53517,Araújo,Consultoria,Borges de Goiás,4
+64018,da Rocha,Serviços,Novais da Praia,1
+72814,Pires,Equipamentos,Cirino de Siqueira,2
+37188,Pereira,Consultoria,Rezende da Serra,4
+99265,Rocha,Matérias-primas,Casa Grande da Prata,1
+60977,Dias Alves e Filhos,Consultoria,Gonçalves de Goiás,5
+80665,Vasconcelos Albuquerque e Filhos,Consultoria,Caldeira do Oeste,3
+32369,Souza,Serviços,Mendonça dos Dourados,5
+3296,Moraes,Equipamentos,Cirino do Norte,5
+10623,Borges,Matérias-primas,Martins de Machado,4
+2637,Castro Araújo Ltda.,Serviços,Cassiano,3
+27958,Farias,Matérias-primas,da Conceição,1
+69828,Santos Camargo S/A,Consultoria,Sousa de Cardoso,1
+63661,Santos - ME,Equipamentos,Abreu,3
+59716,Câmara Pinto - EI,Matérias-primas,Pastor das Pedras,3
+96259,Fonseca Ltda.,Serviços,Oliveira do Campo,3
+92126,Monteiro,Equipamentos,Brito de Vasconcelos,2
+44126,Duarte Ferreira e Filhos,Matérias-primas,Alves da Prata,1
+27111,Garcia,Serviços,da Conceição do Campo,3
+76821,Sampaio,Serviços,Ferreira,1
+75306,da Rosa,Consultoria,Peixoto,3
+49037,Vargas Ltda.,Equipamentos,Santos de Aparecida,4
+18255,Correia,Equipamentos,Borges,1
+5792,da Luz Teixeira Ltda.,Matérias-primas,Alves,3
+39681,Ramos Duarte S/A,Serviços,da Costa do Galho,4
+92274,Vargas,Equipamentos,Campos,5
+31511,Gonçalves,Serviços,Souza de Minas,3
+10919,das Neves,Equipamentos,Montenegro,4
+91783,Aparecida,Matérias-primas,Lopes de Goiás,5
+32958,Pires - ME,Matérias-primas,Fogaça de Martins,3
+67215,Camargo,Matérias-primas,Correia do Norte,3
+2376,Garcia Rezende Ltda.,Equipamentos,da Cruz das Pedras,2
+12369,Garcia Ltda.,Matérias-primas,Silveira,1
+40388,Viana,Consultoria,Barros dos Dourados,3
+70946,Duarte Ltda.,Consultoria,Viana da Praia,5
+24369,Ferreira Sá e Filhos,Equipamentos,Gomes,2
+28441,Sampaio - EI,Consultoria,Nunes das Pedras,2
+44985,da Paz S/A,Matérias-primas,Ferreira do Campo,2
+96134,Lima Ferreira S.A.,Serviços,Borges,5
+94135,Mendes e Filhos,Matérias-primas,Moraes,3
+55246,Santos,Serviços,Souza dos Dourados,3
+88052,Barbosa,Consultoria,Siqueira de Sampaio,3
+65877,das Neves Montenegro S.A.,Serviços,Pacheco,2
+93666,Castro,Serviços,Garcia,3
+28833,Andrade,Serviços,Aragão,1
+94504,Martins da Cunha - ME,Serviços,Cirino de Marques,3
+22265,das Neves - ME,Consultoria,Ramos,5
+35474,Melo S.A.,Matérias-primas,das Neves do Norte,2
+62248,Novais Ltda.,Serviços,Monteiro,3
+31545,Nunes,Equipamentos,Mendes de Câmara,3
+48038,Martins Fernandes e Filhos,Consultoria,Marques Grande,5
+56556,Pimenta da Conceição - ME,Serviços,Novaes da Serra,3
+40550,Albuquerque da Paz S/A,Equipamentos,Lopes de Castro,3
+68460,Almeida,Matérias-primas,Câmara da Praia,5
+37682,Nunes Ferreira - EI,Consultoria,Câmara,1
+62571,Melo,Matérias-primas,Costa do Amparo,5
+20483,Nogueira,Consultoria,Melo,4
+77671,Cassiano,Matérias-primas,Fonseca,1
+98604,da Paz da Conceição S.A.,Consultoria,Porto,5
+31019,Castro,Equipamentos,Gonçalves de Azevedo,2
+48794,Rodrigues,Serviços,Brito,4
+46847,Moraes,Serviços,das Neves do Campo,1
+17883,Aragão Jesus S.A.,Equipamentos,Almeida,2
+11220,Novais S/A,Equipamentos,Duarte Alegre,2
+20777,Mendes,Matérias-primas,das Neves da Praia,2
+11425,Aparecida,Matérias-primas,Barros do Campo,1
+77324,Araújo S.A.,Matérias-primas,Pereira,4
+52992,Duarte Novaes - EI,Matérias-primas,Fonseca de Costa,4
+1274,da Cruz,Matérias-primas,Nascimento de Pereira,3
+67690,Correia,Consultoria,Almeida do Sul,5
+77819,Nogueira - EI,Consultoria,Silveira das Flores,5
+29408,Garcia S.A.,Consultoria,Barros,3
+6255,Lopes S/A,Consultoria,Almeida,4
+92959,das Neves Sousa S.A.,Serviços,Fonseca do Campo,5
+68975,Costa,Serviços,Vargas da Prata,5
+88525,Farias Pereira - EI,Serviços,Vargas,2
+47830,Campos,Matérias-primas,da Mota das Flores,5
+23857,Guerra,Matérias-primas,Novaes,5
+12482,Mendes,Matérias-primas,Moreira Paulista,4
+64293,da Luz,Matérias-primas,da Rocha,4
+92634,Oliveira,Equipamentos,da Costa do Sul,4
+55752,da Mata e Filhos,Serviços,Almeida,5
+77229,Mendes Ltda.,Equipamentos,Sousa do Campo,4
+84807,Rocha Melo - EI,Serviços,Santos,2
+31003,Carvalho Rocha S.A.,Consultoria,Cunha,3
+52788,Cirino,Equipamentos,Duarte,1
+49732,Brito Leão S.A.,Consultoria,Ferreira,2
+71360,Moura Ltda.,Equipamentos,Costa,4
+31655,Cardoso,Serviços,Macedo,4
+98946,da Rosa,Equipamentos,Duarte de Duarte,2
+54409,Mendes,Serviços,Cavalcanti,5
+28004,Pimenta Santos S.A.,Equipamentos,Azevedo da Praia,5
+46149,Vasconcelos Ltda.,Serviços,Ramos,4
+65150,Guerra,Consultoria,Rodrigues,1
+8546,Gonçalves - EI,Matérias-primas,Gomes do Campo,1
+87823,Caldeira,Matérias-primas,Sales,2
+4998,Costela,Consultoria,da Mota de Pastor,3
+90581,Rodrigues Caldeira S/A,Matérias-primas,Martins da Mata,5
+37455,Moreira,Serviços,Lima,3
+55112,Martins Pacheco S/A,Matérias-primas,Monteiro da Serra,1
+91559,Vargas Montenegro S/A,Consultoria,Casa Grande,2
+38496,Campos Nascimento e Filhos,Matérias-primas,Silveira de Moreira,2
+29555,da Rocha Pacheco e Filhos,Matérias-primas,Jesus,2
+99710,Novais Moura - EI,Matérias-primas,Aparecida de Minas,2
+26788,Rios,Matérias-primas,Carvalho,3
+76959,Azevedo,Equipamentos,da Costa de Pacheco,1
+24738,Gomes Castro S/A,Serviços,Dias,3
+35846,Araújo Araújo - EI,Serviços,Fogaça dos Dourados,3
+28928,Martins,Equipamentos,Nunes,5
+84990,Vieira - ME,Equipamentos,Nunes da Mata,2
+29016,Carvalho,Matérias-primas,da Rosa dos Dourados,2
+62805,Peixoto,Equipamentos,Silveira da Serra,1
+35002,Mendonça Silveira S.A.,Serviços,Rodrigues do Campo,5
+56763,Camargo,Equipamentos,Cunha,3
+17368,Peixoto e Filhos,Equipamentos,Sales Alegre,4
+40050,Silveira Castro S.A.,Consultoria,Santos do Oeste,2
+79850,Sampaio Câmara S.A.,Matérias-primas,Sales,1
+42162,Moraes,Serviços,Teixeira do Oeste,5
+46510,Pacheco,Serviços,Abreu do Amparo,5
+81624,da Costa e Filhos,Equipamentos,Cavalcanti Paulista,2
+55569,Barbosa,Matérias-primas,Marques de Correia,2
+52960,Sales S/A,Equipamentos,Rodrigues,2
+40662,Correia Ferreira S/A,Consultoria,da Mata,5
+1364,da Mata,Consultoria,Souza,4
+88998,da Luz,Serviços,Farias,4
+36159,Albuquerque,Equipamentos,Montenegro,1
+16313,da Conceição Lima S.A.,Matérias-primas,Leão,5
+99900,Ramos - EI,Matérias-primas,Cavalcante da Praia,4
+46599,Gomes Ltda.,Serviços,Jesus da Serra,4
+84483,Pires Farias - ME,Matérias-primas,Rezende do Campo,1
+47692,Vasconcelos e Filhos,Serviços,Ferreira,4
+45112,Aparecida Oliveira S/A,Consultoria,Pastor do Galho,2
+49901,Silveira S/A,Consultoria,Novais de da Cruz,1
+28964,Fonseca,Serviços,Nascimento,2
+68283,Oliveira Nogueira e Filhos,Serviços,Azevedo,3
+24978,Lopes,Serviços,Rodrigues,1
+75557,Moreira Correia S.A.,Equipamentos,Câmara Grande,1
+50118,Macedo Ltda.,Equipamentos,Duarte,2
+49913,Almeida Ltda.,Equipamentos,Vasconcelos das Flores,5
+82347,Machado,Equipamentos,Ribeiro,5
+66451,Sá S/A,Serviços,Vargas Alegre,4
+8912,Almeida S.A.,Equipamentos,da Cruz do Galho,4
+59086,Teixeira,Matérias-primas,Souza de Cavalcante,4
+98963,Farias,Matérias-primas,Macedo do Oeste,3
+20072,Aparecida,Consultoria,Vargas do Norte,5
+16517,Farias Teixeira S/A,Serviços,Silva de Brito,4
+32971,Souza Nogueira Ltda.,Consultoria,Araújo,4
+22708,Andrade,Matérias-primas,Guerra de Pacheco,1
+80600,Cardoso Correia - ME,Equipamentos,Nogueira,1
+32435,Pastor S/A,Equipamentos,Lima,1
+31936,da Mota S/A,Consultoria,Fogaça de Jesus,1
+37729,Correia,Matérias-primas,Mendonça,4
+47684,Garcia - ME,Serviços,Andrade,2
+82373,Cirino Costa Ltda.,Serviços,Sá,4
+17226,da Luz,Equipamentos,Casa Grande,5
+89651,Jesus,Equipamentos,Cunha do Amparo,4
+60233,Marques Garcia e Filhos,Equipamentos,Marques,4
+8803,Campos,Consultoria,Campos,2
+82296,Rezende - EI,Equipamentos,da Rosa do Amparo,5
+72514,Pimenta,Equipamentos,Jesus de Pereira,3
+91426,Santos S.A.,Equipamentos,Ferreira de Duarte,5
+9711,da Conceição,Consultoria,Aragão Grande,3
+39505,Almeida Pastor Ltda.,Serviços,Mendonça,2
+14490,Brito,Matérias-primas,Farias Grande,1
+38854,Ferreira,Consultoria,Leão de Goiás,1
+55849,Rocha Ltda.,Equipamentos,Moraes,4
+97006,da Rosa S/A,Consultoria,Caldeira,4
+21737,Ribeiro,Matérias-primas,Vargas Paulista,2
+82415,Pereira Camargo - ME,Equipamentos,Cunha das Pedras,5
+43778,Leão,Equipamentos,Viana de Minas,2
+12566,da Conceição S.A.,Serviços,Lopes da Serra,2
+94716,Albuquerque Ltda.,Consultoria,Vieira,1
+8975,Correia,Equipamentos,Camargo das Pedras,1
+25918,Duarte Araújo Ltda.,Consultoria,Freitas,4
+99464,Leão S/A,Consultoria,da Mata Verde,1
+65556,Melo,Consultoria,Guerra da Praia,3
+62117,Borges,Matérias-primas,Macedo Grande,3
+24920,Aparecida,Matérias-primas,Aragão,4
+48864,Mendes da Cunha S/A,Equipamentos,Ramos,3
+68230,Campos Ltda.,Matérias-primas,Moreira de Pires,1
+93156,Sá,Consultoria,Caldeira das Flores,2
+22507,Pereira,Equipamentos,Azevedo,4
+17824,Sales Teixeira e Filhos,Equipamentos,Brito,2
+42081,Sá - EI,Consultoria,Cassiano da Praia,4
+74490,Peixoto,Matérias-primas,da Cruz,5
+81162,Sá S/A,Serviços,Pires,3
+72847,Nunes S.A.,Serviços,Siqueira do Sul,3
+98294,Vieira,Consultoria,Moura,1
+77828,Rodrigues,Serviços,Ferreira,4
+31465,Teixeira,Matérias-primas,Cardoso de Minas,2
+59301,Cavalcante S/A,Consultoria,Sales das Pedras,2
+83030,Siqueira,Serviços,Sampaio,5
+11903,Novaes - ME,Matérias-primas,Freitas de Ferreira,4
+27982,Barbosa - EI,Equipamentos,Fonseca do Campo,5
+37950,da Mata,Consultoria,Albuquerque,2
+7884,Novais Campos e Filhos,Consultoria,Almeida,1
+64348,Leão Macedo S.A.,Consultoria,Fernandes do Campo,3
+89704,Mendes S/A,Consultoria,Cunha de Aragão,5
+85429,Sousa Ltda.,Serviços,da Mota,3
+32423,Ramos,Serviços,Moura das Pedras,2
+57285,Fogaça,Consultoria,Garcia,1
+87929,Jesus Gomes e Filhos,Serviços,Vasconcelos da Prata,5
+60274,Nunes S/A,Consultoria,Oliveira,5
+24160,Guerra,Equipamentos,Casa Grande,5
+96354,da Cruz Melo S/A,Serviços,Duarte,1
+75327,Borges S.A.,Equipamentos,Lopes do Oeste,3
+62002,da Luz,Consultoria,Barros de Barros,5
+41716,Ribeiro,Serviços,da Luz,2
+83975,Almeida Moraes S.A.,Equipamentos,Brito do Amparo,1
+83327,Ramos Costa Ltda.,Consultoria,Ramos de Rocha,5
+40225,Cavalcanti,Equipamentos,Costa,2
+95484,Vieira,Equipamentos,Costela de Pires,1
+44173,Campos,Consultoria,Cavalcanti dos Dourados,5
+1284,da Mata Campos e Filhos,Matérias-primas,Novais,1
+85816,Cardoso,Equipamentos,Casa Grande do Amparo,4
+25943,Peixoto,Serviços,Cavalcante,3
+16411,Silveira,Equipamentos,Gonçalves do Norte,2
+50197,Brito,Matérias-primas,Macedo do Campo,3
+79422,Azevedo,Consultoria,Macedo,5
+96898,Duarte,Consultoria,Pastor Grande,2
+24360,Souza,Equipamentos,Silveira,1
+46681,Correia,Equipamentos,Barros Grande,1
+84849,Cassiano - ME,Consultoria,Lima,5
+86804,Souza,Serviços,Pacheco,2
+43643,Alves,Equipamentos,Pastor de Melo,5
+51294,Gonçalves,Equipamentos,Mendonça Verde,1
+47952,Peixoto,Matérias-primas,Sá de Gonçalves,3
+96705,Marques S.A.,Consultoria,Vargas do Oeste,5
+46806,Rios,Matérias-primas,Aparecida,1
+77953,Fernandes,Serviços,Lima,5
+97180,Silveira,Consultoria,Moreira,2
+34251,Rodrigues e Filhos,Matérias-primas,Gonçalves do Amparo,2
+85042,da Mota,Equipamentos,Rodrigues,5
+21900,Siqueira Ferreira - ME,Serviços,Mendonça,4
+72221,Fogaça,Serviços,Ferreira da Praia,2
+57366,Oliveira S/A,Matérias-primas,Nascimento do Oeste,3
+28067,da Mata Nunes - ME,Matérias-primas,Mendes,5
+18934,Ferreira,Matérias-primas,Casa Grande,4
+54672,Melo S.A.,Equipamentos,Gomes de Andrade,3
+68192,Nunes e Filhos,Consultoria,Pinto,5
+57684,Barros Borges e Filhos,Equipamentos,Teixeira,3
+79448,Silva - EI,Serviços,Garcia de Goiás,2
+37189,da Mata Ltda.,Equipamentos,Martins,3
+42283,Cirino Araújo - EI,Consultoria,Moreira de Goiás,4
+66230,Gonçalves Cardoso - ME,Serviços,Pastor do Amparo,4
+58251,Abreu,Consultoria,Mendonça,2
+98865,Pimenta,Serviços,Câmara do Campo,4
+45263,Moreira,Equipamentos,Garcia,2
+81095,Sousa,Equipamentos,da Rocha,3
+16677,Fogaça Guerra - ME,Matérias-primas,Araújo,3
+84507,Cunha,Consultoria,Freitas do Sul,5
+70684,Alves,Serviços,Oliveira,1
+66589,Pastor Lima - EI,Consultoria,Fonseca Verde,2
+63150,Correia,Consultoria,Casa Grande,2
+98776,Caldeira,Consultoria,Albuquerque do Norte,1
+5307,Porto Sousa e Filhos,Serviços,Carvalho,4
+34910,Barros Cunha - ME,Serviços,Abreu de Carvalho,5
+93172,Brito,Equipamentos,Aragão,3
+32518,Camargo Ltda.,Serviços,Sales Grande,5
+33809,Souza S.A.,Consultoria,Borges,2
+54798,Pereira,Serviços,Silva do Sul,3
+49026,Nascimento S.A.,Matérias-primas,Moraes,5
+54696,Siqueira Rezende Ltda.,Matérias-primas,Azevedo,1
+16107,Silva S/A,Matérias-primas,Carvalho,4
+14277,Machado,Equipamentos,Sales de Cavalcante,3
+36749,Pereira Lopes S.A.,Matérias-primas,Novaes de das Neves,3
+2029,Pires,Matérias-primas,Farias,2
+51259,Gomes,Equipamentos,da Mota da Mata,3
+72364,Pimenta,Serviços,Cavalcanti,1
+35921,Guerra e Filhos,Consultoria,Gomes Verde,2
+72661,Oliveira,Equipamentos,Borges Verde,3
+30566,Siqueira,Consultoria,Azevedo,1
+60376,Silva,Consultoria,da Mata,4
+46796,Casa Grande,Serviços,Porto da Praia,2
+23311,Pacheco Cardoso Ltda.,Equipamentos,Camargo,1
+62921,Guerra,Serviços,Nascimento,1
+7325,Lopes Duarte S.A.,Matérias-primas,Martins do Sul,2
+4324,Nunes,Equipamentos,Sá,1
+77676,Duarte,Equipamentos,Rocha,1
+85570,Caldeira,Equipamentos,Casa Grande do Oeste,2
+99343,Caldeira,Equipamentos,Rezende da Serra,1
+64095,Andrade S/A,Serviços,Cassiano,1
+51795,Borges,Consultoria,Leão das Flores,5
+42399,Rezende Ltda.,Matérias-primas,Fernandes,2
+96434,Albuquerque e Filhos,Matérias-primas,Moraes das Flores,2
+66875,Sampaio - ME,Matérias-primas,da Costa da Serra,2
+34299,Duarte S.A.,Serviços,Dias do Norte,3
+77150,Cavalcante,Serviços,da Cruz,3
+90846,Guerra,Serviços,Araújo dos Dourados,3
+29907,da Rosa Ferreira Ltda.,Serviços,Vasconcelos,2
+2736,Aparecida e Filhos,Matérias-primas,Almeida,5
+34817,Machado Ltda.,Serviços,Sampaio,1
+32604,da Costa,Equipamentos,Pires do Campo,5
+65121,Barros Sales S.A.,Equipamentos,Viana,2
+9656,Rezende Dias S.A.,Matérias-primas,das Neves de Minas,4
+93941,Costela S.A.,Consultoria,Montenegro,4
+64356,Ferreira Pacheco Ltda.,Equipamentos,Fonseca,5
+43621,Barros,Matérias-primas,Garcia dos Dourados,5
+99073,Porto S.A.,Serviços,Rodrigues do Sul,3
+12350,Porto e Filhos,Equipamentos,Andrade de Goiás,5
+80993,Brito,Equipamentos,da Costa,3
+62434,Sales da Costa - ME,Equipamentos,Fernandes do Amparo,2
+65576,Nunes,Serviços,Ramos Paulista,2
+62202,Pastor Ltda.,Serviços,Brito da Prata,4
+24274,Ribeiro Rios - EI,Consultoria,Andrade,1
+90907,Correia,Serviços,Mendes do Sul,1
+6350,Costa,Equipamentos,Correia de Pacheco,4
+70101,da Luz,Matérias-primas,Moura,3
+10173,Novaes,Matérias-primas,Vieira de Viana,3
+70912,Pires - ME,Consultoria,Correia,5
+80197,Gomes,Consultoria,da Conceição,1
+94446,Alves Fonseca S/A,Equipamentos,Cavalcanti do Oeste,1
+50980,Fogaça,Serviços,Martins,5
+61656,da Cunha Peixoto Ltda.,Consultoria,Vargas da Mata,5
+82782,Cavalcanti,Consultoria,Costa de Sá,5
+94622,Caldeira,Serviços,Guerra,1
+58393,Machado,Serviços,da Cunha de Mendonça,4
+18192,Ribeiro Sousa S.A.,Serviços,Rezende,5
+63482,da Luz,Serviços,Brito,2
+76168,Pastor Montenegro e Filhos,Consultoria,Peixoto,4
+87146,Costela,Matérias-primas,Garcia,5
+63553,Correia Mendes - ME,Matérias-primas,Duarte,4
+33739,Machado Camargo - ME,Matérias-primas,Ribeiro do Amparo,1
+12964,Farias Cavalcanti Ltda.,Matérias-primas,Sá de Macedo,1
+80950,da Costa,Equipamentos,Vieira de Guerra,4
+13165,Garcia,Equipamentos,Jesus,5
+72978,Silveira Silva e Filhos,Serviços,Moraes,3
+85334,Rodrigues Almeida e Filhos,Equipamentos,Montenegro do Oeste,4
+97737,Rios Porto - EI,Serviços,Melo,3
+21448,Farias Machado Ltda.,Matérias-primas,Aragão,2
+30515,Moraes - EI,Serviços,Dias de Lopes,2
+14540,Montenegro,Equipamentos,Siqueira,4
+62908,Siqueira,Serviços,Freitas das Flores,2
+77877,Silveira,Serviços,Rocha de Goiás,1
+68479,Moreira e Filhos,Equipamentos,Camargo,1
+25509,Aragão Gonçalves - ME,Matérias-primas,Farias de da Costa,2
+26827,Rios Azevedo - ME,Consultoria,Pires,5
+79782,Barros Vieira S/A,Serviços,Montenegro de Carvalho,2
+46016,Lima,Consultoria,Duarte,1
+13544,da Conceição,Serviços,Martins do Norte,5
+68268,Pimenta Dias e Filhos,Matérias-primas,Aparecida,5
+42354,Andrade,Equipamentos,Machado,4
+89974,Barros,Serviços,Fogaça,3
+22618,Andrade,Consultoria,da Rocha,5
+55281,Rezende,Matérias-primas,Duarte dos Dourados,1
+72533,Mendes,Equipamentos,Fogaça Verde,1
+76554,Novaes,Matérias-primas,Lima,1
+69496,da Costa Pereira - ME,Serviços,Fonseca,5
+45608,Rios,Equipamentos,Gomes,1
+45401,Rocha Gonçalves - ME,Consultoria,Martins,5
+73030,Andrade Viana Ltda.,Matérias-primas,Nogueira de Gonçalves,3
+29950,Siqueira,Matérias-primas,Carvalho de Farias,1
+91987,Cavalcanti,Matérias-primas,Moraes de das Neves,4
+10221,Leão,Serviços,da Cunha da Prata,2
+10473,Vasconcelos Nogueira e Filhos,Equipamentos,Nogueira,2
+59009,da Mota Cavalcante e Filhos,Matérias-primas,Gonçalves dos Dourados,5
+89053,Pinto,Equipamentos,Azevedo,2
+71982,Cavalcanti Vargas Ltda.,Matérias-primas,Souza,1
+10207,Mendes,Consultoria,Nunes,3
+37343,da Conceição S.A.,Consultoria,Jesus,3
+28273,Vieira,Equipamentos,Silveira da Prata,1
+45409,Campos S.A.,Consultoria,da Luz,1
+29523,Moura,Equipamentos,Aragão de da Rosa,4
+55563,Fogaça,Serviços,da Cruz,3
+53399,Alves,Consultoria,Correia,1
+34055,Guerra Ltda.,Equipamentos,Câmara de Macedo,5
+5552,Cirino - ME,Consultoria,Leão,2
+76164,da Rosa Ltda.,Equipamentos,Teixeira,3
+12854,da Cunha S/A,Serviços,Pinto Grande,2
+70377,da Luz Sales - ME,Equipamentos,Costela,2
+6558,Lima,Equipamentos,Pastor,1
+80466,Souza,Consultoria,Campos,1
+75284,Dias,Consultoria,Sousa,4
+41764,Machado,Matérias-primas,Cavalcanti,4
+15962,Machado,Serviços,Casa Grande do Amparo,1
+98416,da Luz,Matérias-primas,Vasconcelos,4
+35306,Vargas Ltda.,Serviços,Camargo da Serra,4
+28827,Pires - EI,Equipamentos,Sampaio,4
+49752,Gonçalves,Matérias-primas,Fogaça de Moreira,1
+51514,Mendes - ME,Consultoria,Aparecida da Serra,1
+58161,Ribeiro - ME,Serviços,Câmara da Prata,5
+6493,Caldeira Rios e Filhos,Equipamentos,Vargas,2
+13414,Cavalcante S/A,Matérias-primas,Cavalcanti Grande,4
+61400,Pires,Serviços,Gomes Paulista,2
+61014,Montenegro,Equipamentos,Alves,2
+93455,Vargas,Equipamentos,Gomes Paulista,2
+21753,da Conceição,Serviços,Siqueira do Sul,3
+85656,Albuquerque Aparecida S.A.,Serviços,Cirino,1
+12868,Moraes,Serviços,Vieira do Norte,1
+22761,Lima,Equipamentos,Vargas do Norte,5
+20038,Barros Borges e Filhos,Matérias-primas,Borges,3
+95199,Marques Leão e Filhos,Equipamentos,Duarte,5
+61682,Rodrigues - ME,Matérias-primas,Campos,5
+60149,Sá - ME,Consultoria,Novais,5
+47455,Rocha Nunes Ltda.,Equipamentos,Barbosa de Costela,1
+60924,Araújo Vasconcelos e Filhos,Consultoria,Mendonça de Minas,4
+17042,Carvalho Almeida - EI,Consultoria,Porto de Costela,3
+58301,Monteiro Lima S/A,Equipamentos,Araújo Alegre,2
+28230,da Mota - ME,Consultoria,Guerra das Flores,1
+21120,Carvalho Barbosa S/A,Equipamentos,Ramos de Minas,5
+99441,Teixeira e Filhos,Serviços,Moraes das Pedras,4
+50034,Novaes Moreira S/A,Matérias-primas,Cavalcante do Oeste,5
+12927,das Neves,Consultoria,Souza das Flores,3
+50819,Garcia S.A.,Matérias-primas,Gonçalves,1
+35820,Vasconcelos,Equipamentos,Duarte,1
+85198,da Rosa Sá - EI,Matérias-primas,Garcia,1
+44499,Moreira S/A,Consultoria,Duarte Grande,3
+13974,Montenegro,Equipamentos,Jesus das Pedras,3
+5781,Cirino,Serviços,da Costa dos Dourados,3
+61030,Freitas Silveira S/A,Equipamentos,Jesus de Minas,1
+81749,Pinto e Filhos,Matérias-primas,Azevedo,3
+61824,Albuquerque Oliveira S/A,Equipamentos,Vieira,4
+5962,Oliveira Ltda.,Matérias-primas,Pimenta,3
+51416,Azevedo,Equipamentos,Cavalcanti da Serra,4
+57097,Vieira - ME,Serviços,da Paz,3
+34618,Ribeiro,Consultoria,Pastor do Amparo,5
+25719,Rodrigues - ME,Equipamentos,Vargas,1
+67367,da Costa S/A,Equipamentos,Nunes,5
+26522,Novais - EI,Consultoria,Farias da Mata,3
+36747,Martins,Equipamentos,Fonseca da Praia,1
+99560,Barbosa,Serviços,Ferreira de Pimenta,3
+62993,Pacheco - EI,Equipamentos,Mendes de Goiás,1
+87533,da Costa S/A,Consultoria,Caldeira dos Dourados,4
+33105,Lima,Serviços,Silva,1
+81382,Costa,Consultoria,Cavalcanti do Campo,3
+66743,Novais,Equipamentos,Souza dos Dourados,2
+74114,Pires,Serviços,Silva,5
+39704,Gomes,Matérias-primas,Siqueira,5
+56713,Cassiano e Filhos,Matérias-primas,Oliveira,1
+65238,Borges - ME,Matérias-primas,Jesus,5
+51999,da Mata Peixoto e Filhos,Equipamentos,Moura,2
+53053,Sousa,Consultoria,Jesus,5
+40883,Pinto,Matérias-primas,Ramos do Amparo,2
+8300,Teixeira - ME,Serviços,Rocha de Minas,4
+52202,Carvalho,Consultoria,Cunha,5
+59552,Abreu,Matérias-primas,da Costa,2
+2277,Porto,Serviços,Gonçalves da Prata,5
+2294,Almeida,Serviços,das Neves de Viana,1
+39098,da Conceição,Equipamentos,Barbosa Verde,3
+90573,Andrade,Matérias-primas,Vargas,2
+62011,da Conceição S.A.,Matérias-primas,Borges,5
+76159,Correia,Equipamentos,Nunes,2
+53497,da Rosa da Costa Ltda.,Serviços,da Luz,1
+6521,da Rocha Sá - ME,Matérias-primas,Siqueira,5
+73094,Cavalcanti,Equipamentos,Pimenta Paulista,4
+21558,Cassiano S.A.,Matérias-primas,das Neves,5
+34971,Rodrigues Brito S/A,Equipamentos,Oliveira Alegre,5
+80373,Nascimento,Consultoria,Novais,2
+88587,Novaes,Equipamentos,Rocha,3
+76986,Brito S.A.,Consultoria,Camargo das Pedras,5
+90399,Moraes Melo - ME,Consultoria,Novaes do Campo,4
+61041,Cavalcanti,Consultoria,Cirino,1
+26825,Pacheco S.A.,Equipamentos,Porto do Campo,4
+26544,Melo,Consultoria,Souza,1
+27329,Silveira Ltda.,Consultoria,Martins,2
+47151,Novaes - EI,Consultoria,Ferreira da Mata,5
+44196,Fonseca Sá - ME,Serviços,Guerra do Galho,1
+21491,Camargo,Matérias-primas,Vasconcelos,1
+10165,Almeida S/A,Matérias-primas,Sales das Flores,2
+19431,Pastor,Matérias-primas,Rios,3
+34661,Sales,Matérias-primas,Vieira,2
+52040,Garcia,Consultoria,Aragão,4
+21998,Mendonça e Filhos,Consultoria,Ramos de Pereira,2
+72309,Camargo,Serviços,Fogaça,1
+34228,Novaes e Filhos,Matérias-primas,Barbosa,2
+55650,Jesus Rios - ME,Matérias-primas,Ramos,5
+34369,Barros,Serviços,Ferreira,1
+40179,da Cruz,Consultoria,Cavalcanti,4
+90255,Alves,Matérias-primas,Farias da Serra,5
+24794,Vieira Duarte S.A.,Consultoria,Teixeira de Pinto,1
+12786,Fernandes,Equipamentos,Sá da Prata,5
+1974,Viana e Filhos,Consultoria,Macedo do Amparo,2
+37802,Albuquerque,Consultoria,Peixoto de Goiás,4
+94627,Melo Lima - ME,Equipamentos,Moraes,5
+88648,Fogaça,Serviços,Siqueira,5
+59821,Sales,Matérias-primas,da Luz de Fonseca,5
+47614,Nascimento S.A.,Consultoria,Rios,5
+66132,Pimenta,Consultoria,Nunes de Goiás,2
+70811,Aragão e Filhos,Consultoria,Sampaio de Cavalcante,3
+39691,Teixeira,Serviços,Fogaça do Norte,3
+96138,Rodrigues S/A,Matérias-primas,Gomes,5
+64660,da Cunha Moraes S/A,Equipamentos,Pereira da Mata,5
+76604,Cassiano,Consultoria,Fonseca de Goiás,4
+22987,Martins,Matérias-primas,da Luz da Prata,4
+27894,Sá Ltda.,Matérias-primas,Guerra,5
+4724,Brito,Consultoria,Camargo,2
+79384,da Luz Pacheco S.A.,Equipamentos,Farias de Minas,5
+40427,Pereira,Equipamentos,da Cunha,5
+4189,Sá Guerra S/A,Equipamentos,Moraes,5
+39644,Pacheco,Equipamentos,Mendonça,5
+52542,Costa,Equipamentos,Novaes Paulista,2
+7372,Camargo S/A,Serviços,Fernandes das Pedras,4
+52465,Jesus,Consultoria,Garcia do Norte,3
+76773,da Mata - ME,Equipamentos,da Paz,5
+94003,Rodrigues,Serviços,Castro,4
+3929,Alves,Equipamentos,Martins da Prata,4
+23982,Caldeira - ME,Equipamentos,Melo do Norte,2
+25846,Duarte e Filhos,Equipamentos,Marques,4
+41567,Sousa S.A.,Serviços,Mendonça,5
+19917,Melo Ltda.,Matérias-primas,Monteiro,1
+18999,Nascimento,Equipamentos,Dias,4
+2660,Sales,Equipamentos,Rezende de Minas,1
+10254,Viana da Conceição S/A,Equipamentos,Sá,4
+71795,Pinto,Serviços,Viana Paulista,4
+73845,Vasconcelos S/A,Equipamentos,Sá,4
+94893,Porto,Matérias-primas,Nogueira,2
+21314,Porto Pires - EI,Consultoria,Pimenta de Pires,4
+80635,Costa,Matérias-primas,Sampaio,2
+5645,Mendonça,Equipamentos,Leão de Goiás,3
+7274,Freitas,Equipamentos,da Rocha,5
+15545,Campos,Serviços,Fogaça de da Rosa,1
+83359,Sampaio,Equipamentos,Pires de Fonseca,1
+68619,Aragão Dias - ME,Matérias-primas,Araújo da Mata,3
+84793,Albuquerque,Serviços,da Cruz,2
+44048,Leão,Matérias-primas,Rocha do Galho,3
+16212,Lopes - EI,Serviços,Fonseca do Amparo,4
+62677,Carvalho,Consultoria,Sousa,5
+20975,Silveira,Equipamentos,Ramos do Sul,4
+26708,Martins S.A.,Equipamentos,Ribeiro,5
+75788,Teixeira Ribeiro S/A,Equipamentos,Pires do Amparo,2
+69682,Aragão,Consultoria,Pires,3
+91615,Jesus,Consultoria,Barbosa da Prata,1
+94035,Siqueira Pastor Ltda.,Equipamentos,Brito,5
+11940,Rocha,Consultoria,Sousa,3
+71183,Caldeira,Consultoria,Sousa,1
+86800,da Rosa Pinto e Filhos,Equipamentos,Aragão,1
+52064,Porto Ltda.,Consultoria,Casa Grande do Campo,1
+45828,Brito,Serviços,Costa da Prata,1
+26497,Correia Araújo - EI,Serviços,Fernandes,5
+41889,Pastor Monteiro S/A,Serviços,da Paz da Praia,1
+84587,Alves,Equipamentos,Silveira,5
+78631,Aparecida,Matérias-primas,Rios,2
+7990,Correia,Matérias-primas,Ribeiro Paulista,4
+42405,Casa Grande Pastor S.A.,Serviços,Pimenta,3
+89357,das Neves Silveira Ltda.,Consultoria,Santos,4
+44581,Ramos,Serviços,Rocha,4
+85681,Ribeiro Fonseca - EI,Serviços,Albuquerque,1
+97104,da Mata S/A,Consultoria,Leão,4
+58355,Casa Grande,Consultoria,Gomes,2
+77750,Dias Ltda.,Equipamentos,Silva,3
+13260,Sá,Serviços,Machado,4
+78461,Brito Brito S/A,Serviços,da Cruz,4
+26180,da Mota Nunes - ME,Equipamentos,Duarte dos Dourados,3
+67815,Duarte,Consultoria,Melo de Lopes,5
+87729,Sampaio e Filhos,Consultoria,Siqueira,5
+26513,Pimenta Abreu e Filhos,Consultoria,Campos de Minas,1
+18881,Cavalcanti Rocha Ltda.,Serviços,Lima,2
+78865,Casa Grande,Serviços,Lopes,3
+13970,Mendonça Ramos S.A.,Serviços,Aparecida,2
+11106,Novais Montenegro - ME,Consultoria,Azevedo,5
+36004,Rodrigues Cardoso e Filhos,Equipamentos,Farias do Norte,1
+33371,Costa,Matérias-primas,Pereira,2
+74863,Jesus,Consultoria,Fernandes da Mata,2
+33941,Souza,Matérias-primas,Gonçalves,2
+97738,da Cruz,Consultoria,Alves de Carvalho,4
+9393,Cunha - ME,Equipamentos,Vieira,4
+81463,Mendonça e Filhos,Matérias-primas,Nogueira Paulista,1
+18973,da Rosa,Serviços,Farias do Oeste,1
+69916,Ramos Ltda.,Serviços,Aragão do Norte,1
+98152,Alves,Serviços,Cavalcante de Nogueira,3
+61540,Caldeira,Consultoria,Borges,1
+85178,Rios,Equipamentos,Silveira do Norte,1
+59575,Sá S/A,Consultoria,Sampaio,2
+30522,Fonseca Gonçalves S/A,Serviços,Aparecida,3
+82889,da Rosa Guerra Ltda.,Matérias-primas,Fernandes,1
+2740,Ramos Sales S.A.,Serviços,Souza,3
+5235,Barbosa Ltda.,Equipamentos,Montenegro,4
+96857,Campos,Matérias-primas,Peixoto do Campo,3
+96958,Silva,Equipamentos,Barros Grande,1
+92249,Novaes,Serviços,Lopes,5
+61182,Monteiro,Equipamentos,da Conceição de Pimenta,2
+60285,Peixoto,Matérias-primas,Macedo,1
+86535,Nunes Campos - ME,Equipamentos,Fonseca,3
+15177,Vieira,Serviços,Gomes das Flores,2
+12022,da Cruz,Equipamentos,Silva do Sul,4
+47772,Correia,Consultoria,da Paz do Oeste,3
+50933,da Cunha,Serviços,da Mota,3
+18715,Casa Grande S/A,Serviços,da Rocha do Amparo,5
+88490,Leão e Filhos,Serviços,Cunha,5
+99581,Pimenta,Serviços,Pires Alegre,3
+44770,Nunes,Serviços,Nascimento,1
+25208,Sampaio Ltda.,Serviços,Monteiro,4
+55177,Silva,Equipamentos,Silva das Pedras,3
+53445,Porto S.A.,Consultoria,Oliveira de Minas,1
+86686,Melo Gomes e Filhos,Matérias-primas,da Conceição de Goiás,5
+76677,Rezende Camargo S.A.,Matérias-primas,Azevedo de Goiás,4
+54337,Machado,Consultoria,Casa Grande,5
+74022,Rocha Gomes S/A,Equipamentos,Rodrigues,2
+95734,Silveira,Equipamentos,Souza de Pastor,3
+57109,Nogueira,Equipamentos,Garcia do Oeste,4
+43016,Mendes S.A.,Serviços,Pires das Flores,1
+62827,Pastor,Equipamentos,Ribeiro,3
+56387,Casa Grande - EI,Serviços,das Neves da Prata,5
+97453,Lopes Lopes - ME,Serviços,Rocha de Gonçalves,4
+64698,Borges Campos e Filhos,Equipamentos,Martins,2
+5126,da Rosa Aparecida e Filhos,Consultoria,Novaes,3
+97393,Leão e Filhos,Consultoria,Leão de Mendes,2
+38178,Leão da Luz Ltda.,Equipamentos,Barros,2
+55340,Guerra da Cruz e Filhos,Serviços,Caldeira das Pedras,3
+85028,Costa - ME,Consultoria,Dias,4
+32717,Câmara,Serviços,da Rocha,1
+70411,Sá,Consultoria,Silva de da Cruz,4
+21960,Santos Cassiano Ltda.,Equipamentos,Cardoso do Campo,3
+14107,da Cunha Sampaio S/A,Matérias-primas,Pimenta,5
+75253,Sampaio da Rocha e Filhos,Equipamentos,Aragão,5
+51161,Machado Albuquerque - ME,Equipamentos,Castro,2
+27003,Ferreira,Matérias-primas,Rezende,2
+72503,Marques Campos S.A.,Equipamentos,Garcia de Pinto,3
+82524,Rocha Andrade S/A,Serviços,Araújo,1
+96428,da Rocha,Consultoria,Machado do Galho,2
+14874,Marques,Consultoria,Nogueira do Amparo,3
+82153,Sampaio,Consultoria,da Mota de Costa,5
+48063,Costela Carvalho S.A.,Equipamentos,Sá Verde,4
+87970,Novaes,Serviços,Azevedo,3
+78402,Macedo da Rocha - ME,Matérias-primas,Costa,2
+31759,Alves S.A.,Matérias-primas,Nogueira,3
+52877,Mendes - ME,Serviços,Melo,5
+48576,Fogaça S/A,Consultoria,Pacheco,4
+82557,Mendonça,Serviços,Peixoto,1
+15518,da Costa Nogueira Ltda.,Consultoria,Montenegro da Praia,2
+86192,Lima S.A.,Serviços,Garcia,1
+39607,Melo - EI,Consultoria,Peixoto da Serra,5
+14536,Moraes S.A.,Serviços,Marques,4
+84513,Porto Montenegro S.A.,Equipamentos,Cavalcanti de Mendonça,3
+64616,Barros,Serviços,Oliveira Grande,5
+43037,da Mata,Serviços,Casa Grande do Norte,3
+7481,Dias e Filhos,Consultoria,Andrade,1
+84258,Gonçalves S/A,Serviços,Gonçalves,5
+67169,Macedo e Filhos,Equipamentos,Teixeira,4
+71454,Fogaça,Consultoria,Macedo,4
+76505,Azevedo S.A.,Equipamentos,Teixeira do Amparo,4
+73521,Cavalcanti Monteiro S.A.,Consultoria,Pimenta da Prata,5
+40085,Gomes e Filhos,Consultoria,Araújo,5
+75926,Abreu - EI,Consultoria,Lima,4
+32114,Barros,Consultoria,Ramos dos Dourados,3
+58819,Costela,Consultoria,Dias dos Dourados,4
+14749,Siqueira,Consultoria,Farias,2
+2368,Pereira,Matérias-primas,Jesus Verde,3
+55945,Cirino,Equipamentos,Porto,2
+2041,Nogueira Vargas Ltda.,Serviços,Monteiro dos Dourados,4
+3138,Lima,Matérias-primas,da Rocha,5
+82608,Nogueira Moraes S.A.,Serviços,Duarte,1
+43354,da Rocha,Equipamentos,Rocha,2
+26176,Barbosa,Consultoria,Nascimento do Norte,2
+9794,Brito,Serviços,Teixeira,3
+12376,Leão,Equipamentos,Brito de Cavalcanti,1
+54224,Fernandes,Equipamentos,da Conceição de Pimenta,2
+92439,Brito,Serviços,Lima,5
+79863,Camargo,Matérias-primas,Barros de Goiás,5
+84929,Costela,Consultoria,Farias,4
+59697,da Mota,Serviços,Peixoto,3
+53462,Silveira,Matérias-primas,Rodrigues da Serra,1
+85032,Nascimento,Serviços,Sales,4
+58909,Machado,Serviços,Viana,4
+1139,Guerra,Serviços,Monteiro do Oeste,1
+25053,Moura Lima - ME,Matérias-primas,Lopes de Leão,3
+22722,Casa Grande,Serviços,Silveira,3
+27156,Barros,Equipamentos,da Costa,2
+98157,Aparecida,Equipamentos,da Rosa de Pires,1
+49300,Albuquerque e Filhos,Equipamentos,Martins Verde,5
+18436,Borges Ltda.,Equipamentos,Nunes,3
+43819,Andrade Peixoto - ME,Serviços,Ferreira,2
+29021,Araújo Campos - ME,Serviços,Campos de Vargas,4
+46418,Sampaio,Equipamentos,Almeida,4
+41337,Almeida Pacheco S.A.,Consultoria,Araújo do Galho,3
+51129,Brito Pacheco Ltda.,Equipamentos,Fogaça,2
+50789,Casa Grande Carvalho S/A,Equipamentos,da Mata do Norte,5
+9465,Aragão,Consultoria,Correia,5
+8207,Teixeira Andrade - EI,Equipamentos,Duarte,5
+32680,Moraes - EI,Equipamentos,Lima,2
+30968,Fernandes,Equipamentos,Lima,1
+44607,Sá da Rosa Ltda.,Serviços,das Neves da Mata,2
+74365,Ribeiro Freitas - ME,Consultoria,Cunha,4
+60964,Caldeira,Consultoria,Silva,3
+59650,da Cunha - ME,Equipamentos,Barros do Galho,5
+53136,Vieira,Consultoria,da Conceição,2
+53022,da Paz,Consultoria,Novaes,2
+2567,Freitas Oliveira e Filhos,Serviços,Câmara,2
+11254,Fonseca,Consultoria,Ferreira do Amparo,1
+58345,Fogaça,Matérias-primas,Ribeiro da Prata,3
+88857,Gonçalves,Equipamentos,Caldeira dos Dourados,4
+15279,Gonçalves,Serviços,Nascimento da Serra,3
+28093,Aparecida,Equipamentos,Pereira da Praia,5
+43011,Melo,Equipamentos,Borges,1
+34257,da Cunha,Serviços,Costela Alegre,1
+10459,Rodrigues da Conceição Ltda.,Serviços,Aragão da Prata,1
+39231,Guerra,Consultoria,Aragão,3
+86700,Carvalho,Consultoria,da Cunha de Siqueira,2
+94567,Vieira S.A.,Serviços,Monteiro,4
+57769,Oliveira,Matérias-primas,Pacheco,5
+53921,Novais Azevedo S.A.,Matérias-primas,Jesus,1
+85169,Ferreira,Matérias-primas,Lopes,1
+4509,Moura,Matérias-primas,Araújo da Mata,1
+40025,Guerra,Consultoria,Vasconcelos,3
+95917,Cavalcante - ME,Consultoria,Porto,5
+36620,da Rocha,Matérias-primas,Teixeira,3
+96894,Mendes - EI,Serviços,Monteiro do Galho,5
+83694,Santos Sampaio e Filhos,Serviços,Jesus,5
+13084,Viana e Filhos,Matérias-primas,Santos,5
+9541,Pinto,Serviços,Teixeira,5
+92357,Leão,Equipamentos,Campos de das Neves,5
+79366,Dias,Consultoria,Andrade das Pedras,2
+78993,Pimenta,Serviços,da Luz,3
+57821,Guerra Brito - ME,Equipamentos,Lopes,5
+61763,Vargas Barros Ltda.,Serviços,da Luz,3
+80264,Silva,Equipamentos,Nascimento,1
+94663,Castro - ME,Equipamentos,Cardoso da Serra,5
+3607,Câmara,Equipamentos,Fernandes do Oeste,5
+67404,Souza - EI,Matérias-primas,Novais,2
+80235,Caldeira Guerra S.A.,Equipamentos,Carvalho,4
+56538,Farias,Consultoria,Correia de da Cruz,3
+56585,Cardoso,Matérias-primas,Dias de Melo,4
+83603,Martins S/A,Matérias-primas,Souza,1
+94453,Correia,Serviços,Brito,4
+5155,Porto,Serviços,Sá de Guerra,2
+46294,Camargo,Consultoria,Cavalcanti,3
+34575,Sousa S/A,Serviços,Sá do Sul,4
+55616,Borges,Equipamentos,Sales,3
+22366,Mendonça,Equipamentos,da Rosa Alegre,3
+8686,Sampaio Macedo - ME,Equipamentos,da Costa,5
+62208,Jesus,Serviços,Nascimento,4
+40279,Oliveira,Serviços,Fogaça,3
+67655,Guerra S.A.,Serviços,Nascimento,2
+2927,Almeida S/A,Consultoria,Andrade,3
+84480,Rodrigues e Filhos,Matérias-primas,Macedo,3
+93572,Lopes,Consultoria,Ramos da Serra,1
+13421,Barros,Serviços,Cunha,2
+24596,Albuquerque,Serviços,Rocha das Flores,2
+21600,Marques,Equipamentos,Correia,1
+41714,Castro Pastor - EI,Matérias-primas,Mendes das Pedras,2
+54731,Castro,Matérias-primas,Nogueira,1
+64284,Camargo Oliveira e Filhos,Matérias-primas,Lima,4
+36012,da Mata Sampaio - EI,Equipamentos,Dias Paulista,3
+4651,Freitas Rodrigues - EI,Matérias-primas,Duarte,5
+5929,Caldeira Ferreira S.A.,Serviços,Andrade,4
+33778,Lopes - EI,Serviços,Pastor,5
+48383,Lima,Serviços,Rodrigues do Oeste,3
+92080,da Luz,Serviços,da Rosa Verde,3
+93995,da Cruz S/A,Matérias-primas,da Mota,3
+28543,Siqueira,Serviços,Sales das Flores,5
+96394,Borges,Matérias-primas,Rocha,2
+65020,Lima - EI,Matérias-primas,Alves,2
+64756,Sampaio,Serviços,Novaes do Amparo,2
+61746,Aparecida,Equipamentos,Fogaça,2
+53803,Vasconcelos S/A,Matérias-primas,Aragão de Silva,5
+15923,Martins,Serviços,Borges de da Luz,4
+77827,Moura,Equipamentos,Sampaio do Campo,2
+36453,Montenegro da Cruz - EI,Equipamentos,Cirino Verde,2
+22621,Viana,Serviços,Vieira,3
+4958,da Rosa S.A.,Consultoria,Correia,2
+37631,Barros Aparecida - ME,Equipamentos,Abreu das Flores,1
+39461,Vieira Silveira Ltda.,Serviços,da Mata de Rocha,2
+19444,Araújo Araújo e Filhos,Equipamentos,Cirino,3
+81652,da Mota Câmara - EI,Consultoria,Campos de Fogaça,1
+37413,Barros Moraes - EI,Serviços,Albuquerque,5
+99281,Sampaio,Consultoria,Silveira Grande,3
+86245,Ferreira,Matérias-primas,Leão da Serra,1
+68355,da Rosa Abreu Ltda.,Matérias-primas,Albuquerque do Campo,1
+54854,Fernandes - ME,Consultoria,Monteiro,3
+67438,Cavalcante,Consultoria,Cavalcante,5
+67563,da Paz,Serviços,Ferreira Alegre,5
+15846,Pinto Pacheco S.A.,Serviços,Ramos de da Cunha,5
+30167,Campos S/A,Consultoria,Rios,5
+77289,Santos,Serviços,Caldeira,2
+39611,Borges Siqueira S/A,Consultoria,Pimenta,3
+52239,Porto - ME,Equipamentos,Cassiano da Praia,5
+8197,Nunes,Consultoria,Rezende de Goiás,5
+24185,Oliveira S/A,Equipamentos,Pinto,5
+45326,da Rocha,Consultoria,Cavalcanti,4
+73910,Aragão,Equipamentos,Sales Grande,1
+15075,Alves,Matérias-primas,Pinto de Leão,1
+94398,Ramos Cassiano - ME,Equipamentos,Nascimento,1
+66768,Martins S.A.,Equipamentos,Aparecida Paulista,3
+25315,Jesus e Filhos,Matérias-primas,Casa Grande de Sampaio,3
+6961,Porto Sales - ME,Consultoria,Cavalcante,3
+8385,Moreira Gomes Ltda.,Serviços,Viana,3
+37477,Barros,Equipamentos,Barros,2
+87959,Pereira,Matérias-primas,Araújo da Mata,3
+30853,Lima Borges Ltda.,Serviços,Moraes,5
+1769,Duarte S/A,Consultoria,Costa,5
+12209,Alves,Matérias-primas,Guerra,1
+93782,Fonseca,Consultoria,Casa Grande,3
+56727,Caldeira - EI,Equipamentos,Rocha do Sul,5
+84650,Sousa - EI,Consultoria,Pastor da Serra,3
+59227,Garcia,Equipamentos,Sousa de Minas,3
+41195,Cassiano,Consultoria,Vasconcelos,3
+20745,Nogueira,Matérias-primas,Araújo,1
+16528,da Cruz Jesus S.A.,Serviços,Campos,2
+97133,da Mata,Consultoria,Fernandes,2
+2977,Cirino S/A,Matérias-primas,da Paz do Norte,5
+2692,Sales,Matérias-primas,Peixoto do Norte,5
+57981,Moreira Melo Ltda.,Equipamentos,Barbosa,4
+22276,Vargas,Consultoria,Farias,2
+25901,Aragão Peixoto - EI,Consultoria,Araújo,1
+18115,Siqueira - EI,Equipamentos,Almeida dos Dourados,4
+60079,Sousa,Serviços,Garcia,4
+48406,Sampaio S.A.,Matérias-primas,Farias,1
+57976,Lopes,Consultoria,Araújo,2
+68531,Correia Farias - ME,Serviços,da Paz,1
+33529,Casa Grande,Serviços,Silveira,3
+25851,Souza - ME,Matérias-primas,Nunes,5
+98168,da Cunha e Filhos,Matérias-primas,Abreu,3
+53394,Machado S.A.,Matérias-primas,Leão,4
+52438,Leão,Serviços,Rezende,4
+1124,Castro,Equipamentos,Silveira,1
+56418,Pacheco Ltda.,Matérias-primas,Sousa,1
+89791,Sousa,Serviços,Cunha dos Dourados,5
+50684,da Mata,Serviços,Araújo,2
+47552,Silveira,Consultoria,Silveira,4
+74753,Sá S.A.,Matérias-primas,Dias,3
+81517,Cavalcanti,Equipamentos,Sampaio de Araújo,3
+94871,Sales Ltda.,Consultoria,Rezende,3
+90253,Nogueira Silveira - ME,Matérias-primas,Gonçalves do Sul,4
+57594,Santos - ME,Serviços,Vasconcelos,1
+92772,Pereira,Matérias-primas,Pinto,1
+7775,Almeida,Serviços,Guerra,2
+77188,Monteiro Ltda.,Consultoria,Lopes,1
+93874,Cavalcanti Pacheco S/A,Consultoria,Sales de Cavalcanti,2
+29901,Silveira S.A.,Serviços,Sousa,5
+67327,Guerra,Consultoria,da Mota,1
+61484,Fernandes,Consultoria,Mendes Grande,5
+46641,Duarte,Serviços,da Rocha Alegre,5
+62435,Silva Andrade - ME,Equipamentos,Fogaça,4
+6150,Castro,Matérias-primas,Oliveira da Serra,5
+27500,Mendonça,Matérias-primas,Ribeiro,4
+66484,Farias,Serviços,Brito das Flores,4
+81067,da Costa Ltda.,Consultoria,Costela Paulista,1
+15352,Rodrigues,Equipamentos,Souza do Norte,4
+59768,Teixeira Albuquerque e Filhos,Consultoria,Vargas do Amparo,5
+93798,Martins,Equipamentos,Costa do Norte,3
+69785,Fogaça,Equipamentos,Caldeira Alegre,3
+65060,Abreu,Consultoria,Nogueira,2
+23265,Pimenta,Serviços,Novaes do Amparo,1
+6612,Casa Grande S/A,Matérias-primas,Carvalho,4
+57440,Caldeira - ME,Serviços,Fogaça do Oeste,2
+4632,Nunes,Equipamentos,Carvalho do Campo,1
+66039,Fernandes - ME,Serviços,Gomes,5
+11313,Albuquerque Azevedo Ltda.,Matérias-primas,Machado,2
+79356,Fonseca,Equipamentos,Almeida,4
+19069,Machado - ME,Matérias-primas,Azevedo de Goiás,3
+34953,Lopes,Matérias-primas,Leão,1
+25266,Porto Machado e Filhos,Matérias-primas,Novais de Albuquerque,3
+40880,Pimenta Gomes - ME,Consultoria,Ribeiro Paulista,1
+34285,Santos,Serviços,Costela Paulista,1
+50896,Lima Ltda.,Serviços,Gonçalves da Praia,4
+60705,da Luz,Equipamentos,Vieira do Norte,4
+30800,Cunha,Equipamentos,Lima,2
+6584,da Rocha e Filhos,Equipamentos,Pimenta de Farias,4
+95961,Novaes,Matérias-primas,da Rosa,2
+89572,Borges,Consultoria,Alves da Serra,2
+7176,Oliveira S.A.,Matérias-primas,Cirino,1
+90310,Costela - EI,Matérias-primas,Fernandes de Gomes,5
+48086,Moraes - ME,Equipamentos,Sousa Alegre,3
+13542,Câmara,Equipamentos,Costa do Galho,2
+44750,Borges e Filhos,Consultoria,Leão de Ramos,1
+40000,Carvalho Ltda.,Serviços,Vargas do Norte,2
+91384,Nascimento,Matérias-primas,Barbosa da Prata,2
+6892,Garcia,Serviços,Guerra de Cavalcanti,3
+15305,Marques,Consultoria,Fonseca Alegre,4
+3985,Oliveira Cunha S/A,Equipamentos,Machado,3
+36227,Aragão,Equipamentos,Campos,4
+59333,das Neves,Equipamentos,Brito,1
+99526,Vieira,Serviços,Gonçalves,5
+25497,da Conceição Araújo S.A.,Consultoria,Martins,2
+14969,Teixeira Santos Ltda.,Equipamentos,Casa Grande,4
+48754,Aragão - ME,Consultoria,Lima,5
+22301,Pereira,Matérias-primas,Gomes,4
+26479,Vargas,Consultoria,Macedo,4
+97091,Costela,Serviços,Teixeira do Amparo,3
+10767,Sales,Consultoria,Sampaio,4
+48278,Duarte,Equipamentos,Caldeira,5
+50102,Carvalho,Serviços,Rios da Praia,1
+57392,Monteiro,Serviços,Albuquerque do Sul,1
+97564,Costela Cardoso - EI,Consultoria,Martins,3
+98826,Barros,Serviços,Correia de Moraes,4
+57824,Cunha S.A.,Serviços,Silveira,2
+79144,Rocha,Serviços,Alves do Amparo,4
+42510,Rezende,Consultoria,Barros,5
+57926,Costa,Equipamentos,Jesus,1
+39254,Nascimento,Matérias-primas,Pastor do Norte,2
+69330,da Luz Aragão S.A.,Serviços,Cunha,1
+57118,Nunes,Equipamentos,Vieira Paulista,5
+94093,Costela Gonçalves e Filhos,Serviços,Casa Grande do Campo,3
+87385,da Cruz,Equipamentos,Brito da Prata,2
+66932,Pacheco,Serviços,Ramos,5
+77968,Peixoto Ltda.,Equipamentos,Novais,3
+58339,Sá Melo Ltda.,Serviços,das Neves da Praia,3
+59663,Rios Abreu e Filhos,Consultoria,Sá,5
+42562,Mendes,Equipamentos,Duarte da Mata,5
+85507,Brito Ltda.,Equipamentos,Marques,3
+32830,Ferreira Moreira Ltda.,Equipamentos,Machado Verde,5
+93843,Souza - ME,Matérias-primas,Monteiro Alegre,3
+85955,da Mota,Matérias-primas,Silva,5
+12909,Guerra Porto S.A.,Serviços,Teixeira do Oeste,3
+87864,Pastor da Luz Ltda.,Matérias-primas,Costela de Goiás,5
+39107,Costela,Equipamentos,Sá,4
+68973,Pinto Ltda.,Matérias-primas,Pereira de Minas,5
+79158,Rocha Barbosa S/A,Serviços,Abreu da Praia,1
+9790,Dias,Matérias-primas,Rocha,2
+62811,Barbosa,Equipamentos,Ribeiro,1
+47392,Martins,Serviços,Mendes,2
+40961,da Mata da Conceição S/A,Serviços,Ferreira do Sul,3
+12302,Sá Câmara e Filhos,Consultoria,Porto,5
+11748,Rodrigues,Equipamentos,Barbosa dos Dourados,5
+85064,da Rocha,Consultoria,Araújo do Campo,2
+3196,Porto,Equipamentos,da Cunha,2

@@ -1,0 +1,1706 @@
+table dCalendario
+	lineageTag: 0b59579a-92d9-4c40-bca7-732a53767c90
+
+	column DataIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: 188017b0-3cce-419c-ae2d-497c77fba690
+		summarizeBy: sum
+		sourceColumn: DataIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0b152285-eac3-4b0a-9277-97a54d3491ad
+		summarizeBy: none
+		sourceColumn: Data
+
+		variation Variation
+			isDefault
+			relationship: 2e69392b-199b-49a5-b60b-d190154a1b6b
+			defaultHierarchy: LocalDateTable_fcc1e736-385f-40a6-a173-d26ecb18f806.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DataOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: f779a0b2-44ee-4202-914b-ad64a1106f37
+		summarizeBy: sum
+		sourceColumn: DataOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column DataNomeAtual
+		dataType: string
+		lineageTag: b41f9384-4914-477b-aa01-2888306b1870
+		summarizeBy: none
+		sourceColumn: DataNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 28dd7c9d-5bf1-43b0-a480-19f011cb7e39
+		summarizeBy: sum
+		sourceColumn: AnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoInicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c6588d1c-a2b7-4742-b897-eaa4664d247a
+		summarizeBy: none
+		sourceColumn: AnoInicio
+
+		variation Variation
+			isDefault
+			relationship: d6419299-1f84-4d95-b754-ad2035eb3e84
+			defaultHierarchy: LocalDateTable_f61f193b-f883-4402-8ddc-3100f6f4ab5f.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column AnoFim
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: af0c4a94-1b6b-4307-9d91-1224ae4462a2
+		summarizeBy: none
+		sourceColumn: AnoFim
+
+		variation Variation
+			isDefault
+			relationship: 9bf8c01a-c365-4086-a8a5-41caa24ab23c
+			defaultHierarchy: LocalDateTable_2e89982c-0211-4c14-8751-528d8ea1f077.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column AnoIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: bed65d35-32f4-47f5-85fc-fd0faa923505
+		summarizeBy: sum
+		sourceColumn: AnoIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoDescrescenteNome
+		dataType: int64
+		formatString: 0
+		lineageTag: ff00e9f4-7da0-4eff-9761-10008a10077f
+		summarizeBy: sum
+		sourceColumn: AnoDescrescenteNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoDescrescenteNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e9653ed-13ce-46c0-b170-39324674f933
+		summarizeBy: sum
+		sourceColumn: AnoDescrescenteNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoFiscal
+		dataType: int64
+		formatString: 0
+		lineageTag: e7d79901-cf63-42f9-b6b8-6e56650f0534
+		summarizeBy: sum
+		sourceColumn: AnoFiscal
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: b9e64366-5c4b-4524-ad73-efc280ae6e7e
+		summarizeBy: sum
+		sourceColumn: AnoOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoNomeAtual
+		dataType: string
+		lineageTag: f29b8f82-4a13-4ed8-80de-998d8b94203a
+		summarizeBy: none
+		sourceColumn: AnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDoMesNum
+		dataType: int64
+		formatString: 0
+		lineageTag: c173819c-7d1f-4673-a119-f135df09cebc
+		summarizeBy: sum
+		sourceColumn: DiaDoMesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDoAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: dfbbab92-f00d-46f5-bbe9-d96a2ebced34
+		summarizeBy: sum
+		sourceColumn: DiaDoAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDaSemanaNum
+		dataType: int64
+		formatString: 0
+		lineageTag: e05513d1-aba3-4709-94ea-21f67e24b1dd
+		summarizeBy: sum
+		sourceColumn: DiaDaSemanaNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDaSemanaNome
+		dataType: string
+		lineageTag: b55bd894-e55a-4773-ac9e-3f772ebaa220
+		summarizeBy: none
+		sourceColumn: DiaDaSemanaNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDaSemanaNomeAbrev
+		dataType: string
+		lineageTag: 4f2d0c88-9729-44eb-9ca1-15ff30c3ada1
+		summarizeBy: none
+		sourceColumn: DiaDaSemanaNomeAbrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDaSemanaNomeIniciais
+		dataType: string
+		lineageTag: da483140-5b85-43de-b01a-0dbc543b997d
+		summarizeBy: none
+		sourceColumn: DiaDaSemanaNomeIniciais
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNum
+		dataType: int64
+		formatString: 0
+		lineageTag: d6b2679f-15b0-4e25-8d0b-2d42193f3c70
+		summarizeBy: sum
+		sourceColumn: MesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNome
+		dataType: string
+		lineageTag: 3a8cb800-69d5-4b78-a5d2-e50ff5f42f60
+		summarizeBy: none
+		sourceColumn: MesNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNomeAbrev
+		dataType: string
+		lineageTag: 6a8486c7-6dc0-458e-aa67-3dc191fe33fd
+		summarizeBy: none
+		sourceColumn: MesNomeAbrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNomeIniciais
+		dataType: string
+		lineageTag: 55755649-8c87-4084-868d-47ca8cd09fa4
+		summarizeBy: none
+		sourceColumn: MesNomeIniciais
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: de4038bb-978f-48de-9ef6-2f2b4d334416
+		summarizeBy: sum
+		sourceColumn: MesAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoNome
+		dataType: string
+		lineageTag: c98e58c8-d775-42dc-901d-bccbb19f84a0
+		summarizeBy: none
+		sourceColumn: MesAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesDiaNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 8feaaf0f-90dd-48fb-a27c-e29c1bc46a75
+		summarizeBy: sum
+		sourceColumn: MesDiaNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesDiaNome
+		dataType: string
+		lineageTag: f843a53e-7c2d-4487-b0af-6f2eb622180f
+		summarizeBy: none
+		sourceColumn: MesDiaNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesInicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 26675884-aa98-475b-8509-e5810890abc9
+		summarizeBy: none
+		sourceColumn: MesInicio
+
+		variation Variation
+			isDefault
+			relationship: 7ea028d5-03ff-4e13-ba25-8d66551140d2
+			defaultHierarchy: LocalDateTable_6a916a48-dc13-4f8a-95bd-3d28192d2082.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column MesFim
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e6a1ae10-3108-417e-b292-143232ce1368
+		summarizeBy: none
+		sourceColumn: MesFim
+
+		variation Variation
+			isDefault
+			relationship: 123cc435-77f8-4679-9490-f1ec5f8edc7a
+			defaultHierarchy: LocalDateTable_471080e1-91a7-4be1-b2bf-b0fdc4924fa7.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column MesIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: d90b2a07-08df-4ea8-aafe-8bd9b291f83d
+		summarizeBy: sum
+		sourceColumn: MesIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 52631fd8-6c61-462c-b820-1b3ad33aa7c6
+		summarizeBy: sum
+		sourceColumn: MesOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNomeAtual
+		dataType: string
+		lineageTag: f1900550-6d8a-40e9-9a76-5133ad718bc5
+		summarizeBy: none
+		sourceColumn: MesNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNomeAbrevAtual
+		dataType: string
+		lineageTag: 01d6a6ae-615e-4646-a6ea-295b3bdcc0eb
+		summarizeBy: none
+		sourceColumn: MesNomeAbrevAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoNomeAtual
+		dataType: string
+		lineageTag: 4d3ee373-7c7a-4705-9135-1b9993acc97b
+		summarizeBy: none
+		sourceColumn: MesAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e4ecc1a-ad1b-4f3f-a2d3-182971715442
+		summarizeBy: sum
+		sourceColumn: TrimestreNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreInicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9a1f57c4-e3bd-4e59-bef1-e1990ca085f0
+		summarizeBy: none
+		sourceColumn: TrimestreInicio
+
+		variation Variation
+			isDefault
+			relationship: 024fbda9-330d-4843-8a0d-a5e0f8b66aa1
+			defaultHierarchy: LocalDateTable_6990d21b-80bd-4a09-854a-ac1fe635894b.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TrimestreFim
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 07d6e3c3-7cc1-4eaf-bf9e-b1b71d669d8a
+		summarizeBy: none
+		sourceColumn: TrimestreFim
+
+		variation Variation
+			isDefault
+			relationship: 48537494-18f6-4850-9bf5-044ff71d2ab6
+			defaultHierarchy: LocalDateTable_8bee5b76-3a99-47f8-9871-81646123216b.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TrimestreAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 48f51897-295a-45c8-9074-ce1ae6bd7b11
+		summarizeBy: sum
+		sourceColumn: TrimestreAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreAnoNome
+		dataType: string
+		lineageTag: 8995d024-264e-4b0e-a3f2-026da1728f76
+		summarizeBy: none
+		sourceColumn: TrimestreAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: cb62bc7d-a79e-4369-aefc-9130c7becfe7
+		summarizeBy: sum
+		sourceColumn: TrimestreIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: a67a1356-3120-4dda-b354-84cf7206909e
+		summarizeBy: sum
+		sourceColumn: TrimestreOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreAnoNomeAtual
+		dataType: string
+		lineageTag: 30d01a85-cfb3-42ce-81c8-09655a53a649
+		summarizeBy: none
+		sourceColumn: TrimestreAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: e114e0c2-fb84-437a-bf0f-2d007e0e859a
+		summarizeBy: sum
+		sourceColumn: SemanaIsoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoIsoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: c76c5129-5113-47c7-bb1c-0a91b3fdb5b4
+		summarizeBy: sum
+		sourceColumn: AnoIsoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 201c1f8b-2461-48b5-82a2-cf48cf2a5d86
+		summarizeBy: sum
+		sourceColumn: SemanaIsoAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoAnoNome
+		dataType: string
+		lineageTag: 46578685-8f5d-4cd8-90df-43b7024f6ed3
+		summarizeBy: none
+		sourceColumn: SemanaIsoAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoInicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7abff152-149e-41a7-9e96-22727351ba92
+		summarizeBy: none
+		sourceColumn: SemanaIsoInicio
+
+		variation Variation
+			isDefault
+			relationship: f9fb6664-7c7c-41ff-8f0a-54006d276297
+			defaultHierarchy: LocalDateTable_3bca1b55-00c5-47a0-9da9-dc2de61be442.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SemanaIsoFim
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0b9179f7-a084-4511-a1f4-c41f494c576b
+		summarizeBy: none
+		sourceColumn: SemanaIsoFim
+
+		variation Variation
+			isDefault
+			relationship: 1c706a04-2b7b-47a1-be91-54178e66d019
+			defaultHierarchy: LocalDateTable_0ac64b58-4784-4bec-8fb1-8042af0ee9f6.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SemanaIsoIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: c91b6345-f08d-4ac0-a10f-57d3ce8088b8
+		summarizeBy: sum
+		sourceColumn: SemanaIsoIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 6f1db2df-712f-4de3-8a07-259fc77033c6
+		summarizeBy: sum
+		sourceColumn: SemanaIsoOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIsoAnoNomeAtual
+		dataType: string
+		lineageTag: 6f53fea0-c94b-4f81-9dd1-1493286793c0
+		summarizeBy: none
+		sourceColumn: SemanaIsoAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaNum
+		dataType: int64
+		formatString: 0
+		lineageTag: f5d320f5-037a-468e-ac3c-49266c9fe989
+		summarizeBy: sum
+		sourceColumn: SemanaNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c58eec1-c4a2-4663-8398-3d5a8d8f01b8
+		summarizeBy: sum
+		sourceColumn: SemanaAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaAnoNome
+		dataType: string
+		lineageTag: bf5286d4-5484-4e68-9293-f83fccf58519
+		summarizeBy: none
+		sourceColumn: SemanaAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaInicio
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6f22cac8-9960-49b7-bdd5-0fd98387b932
+		summarizeBy: none
+		sourceColumn: SemanaInicio
+
+		variation Variation
+			isDefault
+			relationship: f34ffb65-ec95-456f-8eb1-77405af28f8a
+			defaultHierarchy: LocalDateTable_351d4bb1-b0ed-4d3e-a97f-f78ac86d8685.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SemanaFim
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5a3b0ab6-a6f0-4796-beb2-3d3c4011c1ed
+		summarizeBy: none
+		sourceColumn: SemanaFim
+
+		variation Variation
+			isDefault
+			relationship: 2991204f-47f9-4b17-81b4-9ea9466e01a2
+			defaultHierarchy: LocalDateTable_4e6a7cb6-ca40-4924-8b48-27c5e2f57808.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SemanaPeriodo
+		dataType: string
+		lineageTag: b5a379ce-ab73-42a1-88e8-c2ccc8c3fe99
+		summarizeBy: none
+		sourceColumn: SemanaPeriodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: 71a08158-4423-46bc-9695-0fd78a1aa94e
+		summarizeBy: sum
+		sourceColumn: SemanaIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a8b5a53-3911-47d6-bc71-5563fe70661a
+		summarizeBy: sum
+		sourceColumn: SemanaOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaAnoNomeAtual
+		dataType: string
+		lineageTag: 85402839-3df1-4b2f-88ae-7784b0895cc4
+		summarizeBy: none
+		sourceColumn: SemanaAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaDoMesNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 641a2baf-b315-43f0-8499-0537bb553717
+		summarizeBy: sum
+		sourceColumn: SemanaDoMesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoSemanalNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 6cf0fda2-1db3-408c-bfcb-3222e73b2bac
+		summarizeBy: sum
+		sourceColumn: AnoSemanalNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesSemanalNum
+		dataType: int64
+		formatString: 0
+		lineageTag: d4aa03a8-d390-4613-bd48-58326c96922e
+		summarizeBy: sum
+		sourceColumn: MesSemanalNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesSemanalNome
+		dataType: string
+		lineageTag: f117c669-276b-448f-a8f6-edf666b0fce1
+		summarizeBy: none
+		sourceColumn: MesSemanalNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesSemanalNomeAbrev
+		dataType: string
+		lineageTag: c20bbd0e-14a0-449a-a2c6-2afb03c6fe69
+		summarizeBy: none
+		sourceColumn: MesSemanalNomeAbrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoSemanalNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 6394265a-ed99-4566-a17c-2ddb38dc2406
+		summarizeBy: sum
+		sourceColumn: MesAnoSemanalNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoSemanalNome
+		dataType: string
+		lineageTag: dd52bc80-7e40-40cf-b706-41f82f5889dd
+		summarizeBy: none
+		sourceColumn: MesAnoSemanalNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaDoMesPadraoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: bdc4e6aa-54df-49af-b773-6c5f24e0892a
+		summarizeBy: sum
+		sourceColumn: SemanaDoMesPadraoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaDoMesAnoPadraoNome
+		dataType: string
+		lineageTag: e86cfde1-4993-4be7-8f98-52f991830949
+		summarizeBy: none
+		sourceColumn: SemanaDoMesAnoPadraoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemanaDoMesAnoPadraoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 4cd99c05-af56-4d47-baf5-0a197f191623
+		summarizeBy: sum
+		sourceColumn: SemanaDoMesAnoPadraoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaDoMesNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 21a5c92d-e49f-48f8-9630-8f915aab794d
+		summarizeBy: sum
+		sourceColumn: QuinzenaDoMesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaMesNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 42adb8b9-14e4-4905-abaf-8ca9d65da28c
+		summarizeBy: sum
+		sourceColumn: QuinzenaMesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaMesNome
+		dataType: string
+		lineageTag: 2c8854c9-a906-45b6-a6d0-a0ff22e8b13e
+		summarizeBy: none
+		sourceColumn: QuinzenaMesNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaMesAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: dc423231-db0d-4fee-bb51-999600b26d5c
+		summarizeBy: sum
+		sourceColumn: QuinzenaMesAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaMesAnoNome
+		dataType: string
+		lineageTag: 469be7db-1c16-48eb-be4e-8b1f01daa982
+		summarizeBy: none
+		sourceColumn: QuinzenaMesAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: 4f8ea814-a18f-40ae-b0f6-8cc580462ef6
+		summarizeBy: sum
+		sourceColumn: QuinzenaIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b6024cb-5681-4931-9fd7-64f72830af52
+		summarizeBy: sum
+		sourceColumn: QuinzenaOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuinzenaMesAnoNomeAtual
+		dataType: string
+		lineageTag: 93f54372-f953-4711-b46d-c98d72ef0a92
+		summarizeBy: none
+		sourceColumn: QuinzenaMesAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreDoAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 7461542d-5e5a-41a8-8ddb-6be3bbef3899
+		summarizeBy: sum
+		sourceColumn: SemestreDoAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 7dea756f-b108-4180-ba2d-b65e46f32551
+		summarizeBy: sum
+		sourceColumn: SemestreAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreAnoNome
+		dataType: string
+		lineageTag: 310ba474-0f2a-40e4-b7c8-e6f268ac8622
+		summarizeBy: none
+		sourceColumn: SemestreAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: 70f3ecb3-79b1-4920-8bde-8332ab8e489a
+		summarizeBy: sum
+		sourceColumn: SemestreIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 048854f0-ca20-435d-a05d-b4dd9cf6b2d9
+		summarizeBy: sum
+		sourceColumn: SemestreOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column SemestreAnoNomeAtual
+		dataType: string
+		lineageTag: 7d58a7bf-bbf8-4bd7-8109-6229932c29ec
+		summarizeBy: none
+		sourceColumn: SemestreAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreDoAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: b1c9a8f3-7760-4fd9-9246-22fcd9a7ddb7
+		summarizeBy: sum
+		sourceColumn: BimestreDoAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: ee3118a7-1e63-40e5-848d-195aed9b9671
+		summarizeBy: sum
+		sourceColumn: BimestreAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreAnoNome
+		dataType: string
+		lineageTag: d2314eb4-882c-4068-9f30-ae75c3807f50
+		summarizeBy: none
+		sourceColumn: BimestreAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreIndice
+		dataType: int64
+		formatString: 0
+		lineageTag: 44484e99-3ab8-41c0-8334-26d1db52e443
+		summarizeBy: sum
+		sourceColumn: BimestreIndice
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: b3b2d24b-250e-474f-9ec8-8ae4e2989f75
+		summarizeBy: sum
+		sourceColumn: BimestreOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column BimestreAnoNomeAtual
+		dataType: string
+		lineageTag: ed2dd3ed-77f3-4cbb-8c11-831d96ab9672
+		summarizeBy: none
+		sourceColumn: BimestreAnoNomeAtual
+
+		annotation SummarizationSetBy = Automatic
+
+	column FeriadoNome
+		dataType: string
+		lineageTag: ea3b9d91-59fa-4c03-bf23-0196acc30292
+		summarizeBy: none
+		sourceColumn: FeriadoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaUtilNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 23460a64-a87c-4174-a1e6-856035b40e65
+		summarizeBy: sum
+		sourceColumn: DiaUtilNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaUtilNome
+		dataType: string
+		lineageTag: 2490446f-2272-4b7f-a58e-4c0089d5f60c
+		summarizeBy: none
+		sourceColumn: DiaUtilNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column EstacaoAnoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 61c8ea19-2a3e-4a68-b68e-b8084021fb3b
+		summarizeBy: sum
+		sourceColumn: EstacaoAnoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column EstacaoAnoNome
+		dataType: string
+		lineageTag: 77d7c575-6ac4-4eab-9e79-3761c6287273
+		summarizeBy: none
+		sourceColumn: EstacaoAnoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesFechamentoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 60ff53dc-fdd7-4429-b770-e184f79bbc06
+		summarizeBy: sum
+		sourceColumn: MesFechamentoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesFechamentoNome
+		dataType: string
+		lineageTag: 2b99f505-a1c6-493c-bd52-71146db370a9
+		summarizeBy: none
+		sourceColumn: MesFechamentoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesFechamentoNomeAbrev
+		dataType: string
+		lineageTag: 8fbc39bb-c465-46b1-9145-7600fe3489d1
+		summarizeBy: none
+		sourceColumn: MesFechamentoNomeAbrev
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoFechamentoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: edb3a8e7-377e-48b7-8601-b55df073a584
+		summarizeBy: sum
+		sourceColumn: AnoFechamentoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoFechamentoNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b419459-dbc7-4d0c-9df5-9f48851220a8
+		summarizeBy: sum
+		sourceColumn: MesAnoFechamentoNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesAnoFechamentoNome
+		dataType: string
+		lineageTag: 29a85f24-9222-4bf1-b51b-dcd46d919195
+		summarizeBy: none
+		sourceColumn: MesAnoFechamentoNome
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaUtilDoMes
+		dataType: int64
+		formatString: 0
+		lineageTag: 9fa49799-6342-4323-a5f0-c7ea660c7592
+		summarizeBy: sum
+		sourceColumn: DiaUtilDoMes
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dCalendario = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				/*
+				    dCalendario-v5.2
+				    Autor: Alison Pezzott 
+				    Disponível em: https://github.com/alisonpezzott/powerbi/blob/main/power-query-m/dcalendario/dcalendario-v5.2 
+				    Arquivo apoio para ordenação: https://github.com/alisonpezzott/powerbi/blob/main/power-query-m/dcalendario/dcalendario-v5.2-ordenacao.xlsx
+				    Atualizado em:  terça-feira, 2 de julho de 2024 às 23:06
+				    YouTube:        https://youtube.com/@fluentebi 
+				    Telegram:       https://t.me/fluentebi 
+				    Linkedin:       https://linkedin.com/in/alisonpezzott 
+				    Instagram:      https://instagram.com/alisonpezzott 
+				    Github:         https://github.com/alisonpezzott           
+				*/
+				
+				
+				//********Configurações********
+				
+				    let 
+				    //Especifique a data inicial 
+				    dataInicial = #date(2022, 1, 1), 
+				
+				    //Especifique a data final. Padrão: Final do ano atual 
+				    dataFinal = Date.EndOfYear ( Date.From ( DateTime.LocalNow ( ) ) ), 
+				    
+				    //Especifique a data atual. Padrão: Data atual do servidor 
+				    dataAtual = Date.From ( DateTime.LocalNow ( ) ), 
+				
+				    //Especifique o início da semana. Padrão: Day.Monday (Segunda-feira) 
+				    inicioSemana = Day.Monday, 
+				
+				    //Especifique o mês do início do ano fiscal. Padrão: 4 (Abril)
+				    mesInicioAnoFiscal = 4, 
+				
+				    /*Dia de início do mês de fechamento. 
+				        Padrão: 16 (siginifica que o mês de fechamento vai de 16 do mês corrente 
+				        até o dia 15 do próximo mês */
+				    diaInicioMesFechamento = 1, 
+				
+				    //Especifique o idioma. Padrão: pt-BR (Português do Brasil)
+				    idioma = "pt-BR", 
+				
+				    //Geração da tabela
+				    dCalendario = let
+				
+				    //Lista com todas as datas 
+				    datasRange = List.Buffer ( 
+				        List.Transform ( 
+				            { Number.From ( dataInicial ) .. Number.From ( dataFinal ) }, 
+				            Date.From 
+				        ) 
+				    ), 
+				
+				    //Lista com todos os anos 
+				    anosRange = List.Buffer ( 
+				        { Date.Year ( dataInicial ) .. Date.Year ( dataFinal )} 
+				    ), 
+				
+				    //Feriados fixos que ocorrem em todos os anos 
+				    feriadosFixosCadastro = #table ( 
+				        type table [ 
+				            Dia = Int64.Type, 
+				            Mes = Int64.Type, 
+				            Feriado = text 
+				        ],
+				        {
+				          // Dia, Mês, Feriado
+				            { 01, 01, "Confraternização Universal"   }, 
+				            { 25, 01, "Aniversário da Cidade"        }, 
+				            { 21, 04, "Tiradentes"                   }, 
+				            { 01, 05, "Dia do Trabalhador"           }, 
+				            { 09, 07, "Revolução Constitucionalista" }, 
+				            { 07, 09, "Independência do Brasil"      }, 
+				            { 12, 10, "N. Srª Aparecida"             }, 
+				            { 02, 11, "Finados"                      }, 
+				            { 15, 11, "Proclamação da República"     }, 
+				            { 20, 11, "Consciência Negra"            }, 
+				            { 24, 12, "Véspera de Natal"             }, 
+				            { 25, 12, "Natal"                        }, 
+				            { 31, 12, "Véspera de Ano Novo"          } 
+				        } 
+				    ), 
+				
+				    //Função que gera os feriados fixos para todos os anos 
+				    fxGeraFeriadosFixos = ( ano ) => 
+				        Table.AddColumn ( 
+				            feriadosFixosCadastro, 
+				            "Data", 
+				            each #date ( ano, [Mes], [Dia] ), 
+				            type date 
+				        ) 
+				        [ [Data], [Feriado] ], 
+				
+				    //Gera a tabela de feriados fixos 
+				    feriadosFixos = Table.Combine ( 
+				        List.Transform ( 
+				            anosRange, 
+				            fxGeraFeriadosFixos 
+				        ) 
+				    ), 
+				
+				    //Função que gera os feriados móveis 
+				    fxGeraFeriadosMoveis = ( ano ) => 
+				        let 
+				            modExcel =  ( x, y ) => let m = Number.Mod ( x, y ) in if  m < 0 then m + y else m, 
+				            pascoa =  Date.From ( 
+				                Number.Round ( 
+				                    Number.From ( #date ( ano, 4, 1 ) ) / 7 
+				                    +  modExcel ( 19 * modExcel ( ano, 19 ) - 7, 30 ) * 0.14, 
+				                    0, 
+				                    RoundingMode.Up 
+				                ) 
+				                * 7 - 6 
+				            ), 
+				            feriadosMoveis =  #table ( 
+				                type table [ 
+				                    Data = date, 
+				                    Feriado = text 
+				                ], 
+				                { 
+				                    { Date.AddDays(pascoa, -48 ), "Segunda-feira de Carnaval"  }, 
+				                    { Date.AddDays(pascoa, -47 ), "Terça-feira de Carnaval"    }, 
+				                    { Date.AddDays(pascoa, -46 ), "Quarta-feira de Cinzas"     }, 
+				                    { Date.AddDays(pascoa, -2  ), "Sexta-Feira Santa"          }, 
+				                    { pascoa                    , "Páscoa"                     }, 
+				                    { Date.AddDays(pascoa, 60  ), "Corpus Christi"             } 
+				                } 
+				            ) 
+				        in 
+				            feriadosMoveis, 
+				
+				    //Gera a tabela de feriados móveis 
+				    feriadosMoveis = Table.Combine ( 
+				        List.Transform ( 
+				            anosRange, 
+				            fxGeraFeriadosMoveis 
+				        ) 
+				    ),  
+				
+				    //Tabela contendo todos os feriados 
+				    feriados = Table.Combine ( 
+				        { feriadosFixos, feriadosMoveis } 
+				    ), 
+				
+				    //Define a função de transformação de cada data 
+				    fxLinhaCalendario = ( data ) => 
+				        let 
+				        //Transformações de simples passada para reutilização
+				            zws = Character.FromNumber ( 8203 ), //Caracter invisível (zero-width spacing )
+				            dataOffset = Number.From ( data - dataAtual ), 
+				            ano = Date.Year ( data ), 
+				            mes = Date.Month ( data ), 
+				            trimestre = Date.QuarterOfYear ( data ), 
+				            anoInicial = Date.Year ( dataInicial ), 
+				            anoAtual = Date.Year ( dataAtual ), 
+				            anoFinal = Date.Year ( dataFinal ), 
+				            anoOffset = ano - anoAtual, 
+				            mesInicial = Date.Month ( dataInicial ), 
+				            mesAtual = Date.Month ( dataAtual ), 
+				            trimestreInicial = Date.QuarterOfYear ( dataInicial ), 
+				            trimestreAtual = Date.QuarterOfYear ( dataAtual ), 
+				            diaSemana = Date.DayOfWeek ( data, inicioSemana ) + 1, 
+				            diaSemanaIndiceZws = Text.Repeat ( zws, 7 - diaSemana ), 
+				            semanaDoAnoIsoNo = 
+				                let 
+				                    quintaNaSemana = Date.AddDays ( data, 3 - Date.DayOfWeek ( data, Day.Monday ) ), 
+				                    inicioAnoQuintaNaSemana = #date ( Date.Year ( quintaNaSemana ), 1, 1 ), 
+				                    difDias = Duration.Days ( quintaNaSemana - inicioAnoQuintaNaSemana ) 
+				                in 
+				                    Number.IntegerDivide ( difDias, 7, 0 ) + 1, 
+				            semanaDoAnoNum = Date.WeekOfYear ( data, inicioSemana ), 
+				            diaSemanaNome = Text.Proper ( Date.DayOfWeekName ( data, idioma ) ), 
+				            mesNome = Text.Proper ( Date.MonthName ( data, idioma ) ), 
+				            mesIndiceZws = Text.Repeat ( zws, 12 - mes ), 
+				            mesAnoIndice = 12 * ( ano - anoInicial ) + mes, 
+				            diaMes = Date.Day ( data ), 
+				            mesOffset =  ( ( ano * 12 ) - 1 + mes ) - ( ( anoAtual * 12 ) - 1 + mesAtual ), 
+				            trimestreOffset = ( ( ano * 4 ) - 1 + trimestre ) - ( ( anoAtual * 4 ) - 1 + trimestreAtual ), 
+				            trimestreAno = "T" & Text.From ( trimestre ) & "/" & Text.From ( ano ), 
+				            anoIso = Date.Year ( Date.AddDays ( data, 26 - semanaDoAnoIsoNo ) ), 
+				            inicioSemanaIsoLinha = Date.StartOfWeek ( data, Day.Monday ), 
+				            fimSemanaIsoLinha = Date.EndOfWeek ( data, Day.Monday ), 
+				            inicioSemanaLinha = Date.StartOfWeek ( data, inicioSemana ), 
+				            fimSemanaLinha = Date.EndOfWeek ( data, inicioSemana ), 
+				            inicioSemanaIsoInicial = Date.StartOfWeek ( data, Day.Monday ), 
+				            inicioSemanaInicial = Date.StartOfWeek ( dataInicial, inicioSemana ), 
+				            inicioSemanaIsoAtual = Date.StartOfWeek ( dataAtual, Day.Monday ),
+				            inicioSemanaAtual = Date.StartOfWeek ( dataAtual, inicioSemana ), 
+				            semanaIsoOffset = Number.From ( inicioSemanaIsoLinha - inicioSemanaIsoAtual ) / 7,
+				            semanaOffset = Number.From ( inicioSemanaLinha - inicioSemanaAtual ) / 7, 
+				            semanaAnoIso = "S" & Text.PadStart ( Text.From ( semanaDoAnoIsoNo ), 2, "0" ) & "/" & Text.From ( anoIso ), 
+				            semanaAno = "S" & Text.PadStart ( Text.From ( semanaDoAnoNum ), 2, "0" ) & "/" & Text.From ( ano ), 
+				            semanaDoMes = 
+				                let 
+				                    inicioMes = Date.StartOfMonth ( Date.StartOfWeek ( data,inicioSemana ) ), 
+				                    primeirosSeteDias = List.Dates ( inicioMes, 7, #duration ( 1, 0, 0, 0 ) ), 
+				                    primeiroDia = List.Select ( primeirosSeteDias, each Date.DayOfWeek ( _, inicioSemana ) = 0 ) { 0 } 
+				                in 
+				                    Number.RoundUp ( Duration.Days ( data-primeiroDia ) / 7 + 0.05 ), 
+				            anoSemanal = Date.Year ( inicioSemanaLinha ), 
+				            mesSemanal = Date.Month ( inicioSemanaLinha ) , 
+				            mesSemanalNome = Text.Proper ( Date.MonthName ( inicioSemanaLinha, idioma ) ), 
+				            mesSemanalNomeAbrev = Text.Start ( mesSemanalNome, 3 ), 
+				            semanaDoMesPadraoNum = Date.WeekOfMonth ( data, inicioSemana ), 
+				            quinzenaDoMesNo = if Date.Day ( data ) <= 15 then 1 else 2, 
+				            quinzenaDoMesNoAtual = if Date.Day ( dataAtual ) <= 15 then 1 else 2, 
+				            mesAno = Text.Proper ( Date.ToText ( data, [ Format="MMM/yy", Culture =idioma ] ) ), 
+				            quinzenaMesAno = "Qui " & Text.From ( quinzenaDoMesNo ) & " - " & mesAno, 
+				            quinzenaIndice = 24 * ( ano - anoInicial ) + 2 * ( mes - mesInicial ) + quinzenaDoMesNo, 
+				            quinzenaIndiceAtual = 24 *  ( anoAtual - anoInicial ) + 2 * ( mesAtual - mesInicial ) + quinzenaDoMesNoAtual, 
+				            quinzenaOffset = quinzenaIndice - quinzenaIndiceAtual, 
+				            semestreNo = if mes <= 6 then 1 else 2, 
+				            semestreNoAtual = if mesAtual <= 6 then 1 else 2, 
+				            semestreIndice = ( 2 * ( ano - anoInicial ) ) + semestreNo, 
+				            semestreIndiceAtual = ( 2 * ( anoAtual - anoInicial ) ) + semestreNoAtual, 
+				            semestreOffset = semestreIndice - semestreIndiceAtual, 
+				            semestreAno = "S" & Text.From ( semestreNo ) & " - " & Text.From ( ano ), 
+				            bimestreNo = Number.RoundUp ( mes / 2, 0 ), 
+				            bimestreNoAtual = Number.RoundUp ( mesAtual / 2, 0 ), 
+				            bimestreAno = "B" & Text.From ( bimestreNo ) & " - " & Text.From ( ano ), 
+				            bimestreIndice = ( 6 * ( ano - anoInicial ) ) + bimestreNo, 
+				            bimestreIndiceAtual = ( 6 * ( anoAtual - anoInicial ) ) + bimestreNoAtual, 
+				            bimestreOffset = bimestreIndice - bimestreIndiceAtual, 
+				            feriado = try feriados{[ Data = data ]}[Feriado] otherwise null, 
+				            diaUtilNo = if feriado <> null 
+				                or List.Contains ( 
+				                    { 6 .. 7 }, 
+				                    Date.DayOfWeek ( data, Day.Monday ) + 1 
+				                ) 
+				                then 0 
+				                else 1, 
+				            mesDiaNo = Date.Month ( data ) * 100 + Date.Day ( data ), 
+				            estacaoAnoNo = 
+				                if mesDiaNo >= 321 and mesDiaNo <= 620 then 1 else 
+				                if mesDiaNo >= 621 and mesDiaNo <= 921 then 2 else 
+				                if mesDiaNo >= 922 and mesDiaNo <= 1221 then 3 else 
+				                4 ,
+				            dataReferenciaFechamento = if diaMes <= diaInicioMesFechamento - 1 then data else Date.AddMonths ( data, 1 )  
+				
+				        in 
+				        //Saída das transformações 
+				        { 
+				            //DataIndice 
+				            Number.From ( data - dataInicial ) + 1, 
+				
+				            //Data 
+				            data, 
+				
+				            //DataOffset 
+				            dataOffset, 
+				
+				            //DataNomeAtual 
+				            if dataOffset = 0 then "Data Atual" 
+				                else if dataOffset = -1 then "Data Anterior" 
+				                else if dataOffset = 1 then "Próxima Data" 
+				                else Date.ToText ( data, "dd/MM/yyyy" ), 
+				
+				            //AnoNum 
+				            ano, 
+				
+				            //AnoInicio 
+				            Date.StartOfYear ( data ), 
+				
+				            //AnoFim 
+				            Date.EndOfYear ( data ), 
+				
+				            //AnoIndice 
+				            ano - anoInicial + 1, 
+				
+				            //AnoDecrescenteNome 
+				            ano, 
+				
+				            //AnoDescrescenteNum 
+				            ano * -1, 
+				
+				            //AnoFiscal 
+				            if mes >= mesInicioAnoFiscal then ano else ano - 1, 
+				
+				            //AnoOffset 
+				            anoOffset, 
+				
+				            //AnoNomeAtual 
+				            if anoOffset = 0 then "Ano Atual" 
+				                else if anoOffset = -1 then "Ano Anterior" 
+				                else if anoOffset = 1 then "Próximo Ano" 
+				                else Date.ToText ( data, "yyyy" ),
+				
+				            //DiaDoMesNum 
+				            diaMes, 
+				
+				            //DiaDoAnoNum 
+				            Date.DayOfYear ( data ), 
+				
+				            //DiaDaSemanaNum 
+				            diaSemana, 
+				
+				            //DiaDaSemanaNome 
+				            diaSemanaNome, 
+				
+				            //DiaDaSemanaNomeAbrev 
+				            Text.Start ( diaSemanaNome, 3 ), 
+				
+				            //DiaDaSemanaNomeIniciais 
+				            diaSemanaIndiceZws & Text.Start ( diaSemanaNome, 1 ), 
+				
+				            //MesNum 
+				            mes, 
+				
+				            //MesNome 
+				            mesNome, 
+				
+				            //MesNomeAbrev 
+				            Text.Start ( mesNome, 3 ), 
+				
+				            //MesNomeIniciais 
+				            mesIndiceZws & Text.Start ( mesNome, 1 ), 
+				
+				            //MesAnoNum 
+				            ano * 100 + mes, 
+				
+				            //MesAnoMome 
+				            mesAno, 
+				
+				            //MesDiaNum 
+				            mes * 100 + diaMes, 
+				
+				            //MesDiaNome
+				            Text.Proper ( Date.ToText ( data, [Format="MMM/dd", Culture =idioma] )), 
+				
+				            //MesInicio 
+				            Date.StartOfMonth ( data ), 
+				
+				            //MesFim 
+				            Date.EndOfMonth ( data ), 
+				            
+				            //MesIndice 
+				            mesAnoIndice, 
+				            
+				            //MesOffset 
+				            mesOffset, 
+				            
+				            //MesNomeAtual 
+				            if mesOffset = 0 then "Mês Atual" 
+				                else if mesOffset = -1 then "Mês Anterior" 
+				                else if mesOffset = 1 then "Próximo Mês" 
+				                else mesNome, 
+				
+				            //MesNomeAbrevAtual 
+				            if mesOffset = 0 then "Mês Atual" 
+				                else if mesOffset = -1 then "Mês Anterior" 
+				                else if mesOffset = 1 then "Próximo Mês" 
+				                else Text.Start ( mesNome, 3 ), 
+				            
+				            //MesAnoNomeAtual 
+				            if mesOffset = 0 then "Mês Atual" 
+				                else if mesOffset = -1 then "Mês Anterior" 
+				                else if mesOffset = 1 then "Próximo Mês" 
+				                else mesAno, 
+				            
+				            //TrimestreNum 
+				            trimestre, 
+				
+				            //TrimestreInicio 
+				            Date.StartOfQuarter ( data ), 
+				
+				            //TrimestreFinal 
+				            Date.EndOfQuarter ( data ), 
+				
+				            //TrimestreAnoNum
+				            ano * 100 + trimestre, 
+				
+				            //TrimestreAnoNome 
+				            trimestreAno, 
+				
+				            //TrimestreIndice 
+				            4 * ( ano - anoInicial ) + trimestre, 
+				
+				            //TrimestreOffset 
+				            trimestreOffset, 
+				
+				            //TrimestreAnoNomeAtual 
+				            if trimestreOffset = 0 then "Trimestre Atual" 
+				                else if trimestreOffset = -1 then "Trimestre Anterior" 
+				                else if trimestreOffset = 1 then "Próximo Trimestre" 
+				                else trimestreAno, 
+				
+				            //SemanaIsoNum 
+				            semanaDoAnoIsoNo, 
+				
+				            //AnoIsoNum 
+				            anoIso, 
+				
+				            //SemanaIsoAnoNum 
+				            anoIso * 100 + semanaDoAnoIsoNo, 
+				
+				            //SemanaIsoAnoNome 
+				            semanaAnoIso, 
+				
+				            //SemanaIsoInicio 
+				            inicioSemanaIsoLinha, 
+				
+				            //SemanaIsoFim 
+				            fimSemanaIsoLinha, 
+				
+				            //SemanaIsoIndice 
+				            Number.From ( inicioSemanaIsoLinha - inicioSemanaIsoInicial ) / 7 + 1, 
+				
+				            //SemanaIsoOffset 
+				            semanaOffset, 
+				
+				            //SemanaIsoAnoNomeAtual 
+				            if semanaIsoOffset = 0 then "Semana Atual" 
+				                else if semanaIsoOffset = -1 then "Semana Anterior" 
+				                else if semanaIsoOffset = 1 then "Próxima Semana" 
+				                else semanaAnoIso, 
+				
+				            //SemanaNo 
+				            semanaDoAnoNum, 
+				
+				            //SemanaAnoNum 
+				            ano * 100 + semanaDoAnoNum, 
+				
+				            //SemanaAnoNome 
+				            semanaAno, 
+				
+				            //SemanaInicio 
+				            inicioSemanaLinha, 
+				
+				            //SemanaFim 
+				            fimSemanaLinha, 
+				
+				            //SemanaPeriodo
+				            Date.ToText ( inicioSemanaLinha, "dd/MM/yyyy" ) & " a " & Date.ToText ( fimSemanaLinha, "dd/MM/yyyy" ),
+				
+				            //SemanaIndice 
+				            Number.From ( inicioSemanaLinha - inicioSemanaInicial ) / 7 + 1, 
+				
+				            //SemanaOffset
+				            semanaOffset, 
+				
+				            //SemanaAnoNomeAtual 
+				            if semanaOffset = 0 then "Semana Atual" 
+				                else if semanaOffset = -1 then "Semana Anterior" 
+				                else if semanaOffset = 1 then "Próxima Semana" 
+				                else semanaAno, 
+				
+				            //SemanaDoMesNum 
+				            semanaDoMes, 
+				
+				            //AnoSemanalNum 
+				            anoSemanal, 
+				
+				            //MesSemanalNum 
+				            mesSemanal, 
+				
+				            //MesSemanalNome 
+				            mesSemanalNome, 
+				
+				            //MesSemanalNomeAbrev 
+				            mesSemanalNomeAbrev, 
+				
+				            //MesAnoSemanalNum 
+				            anoSemanal * 100 + mesSemanal, 
+				
+				            //MesAnoSemanalNome 
+				            Text.Proper ( Date.ToText ( inicioSemanaLinha, [ Format="MMM/yy", Culture=idioma ] )), 
+				
+				            //SemanaDoMesPadraoNum
+				            semanaDoMesPadraoNum,
+				
+				            //SemanaDoMesAnoPadraoNome
+				            mesAno & " " & Text.From ( semanaDoMesPadraoNum ),
+				
+				            //SemanaDoMesAnoPadraoNum
+				            ano * 10000 + mes * 100 + semanaDoMesPadraoNum,
+				
+				            //QuinzenaDoMesNum 
+				            quinzenaDoMesNo, 
+				
+				            //QuinzenaMesNum 
+				            mes * 10 + quinzenaDoMesNo, 
+				
+				            //QuinzenaMesNome 
+				            "Qui " & Text.From ( quinzenaDoMesNo ) & " - " & mesNome, 
+				            
+				            //QuinzenaMesAnoNum 
+				            ano * 10000 + mes * 100 + quinzenaDoMesNo, 
+				
+				            //QuinzenaMesAnoNome 
+				            quinzenaMesAno, 
+				
+				            //QuinzenaIndice
+				            quinzenaIndice,
+				
+				            //QuinzenaOffset 
+				            quinzenaOffset, 
+				
+				            //QuinzenaMesAnoNomeAtual 
+				            if quinzenaOffset = 0 then "Quinzena Atual" 
+				                else if quinzenaOffset = -1 then "Quinzena Anterior" 
+				                else if quinzenaOffset = 1 then "Próxima Quinzena" 
+				                else quinzenaMesAno, 
+				
+				            //SemestreDoAnoNum 
+				            semestreNo, 
+				
+				            //SemestreAnoNum 
+				            ano * 100 + semestreNo, 
+				
+				            //SemestreAnoNome
+				            "S" & Text.From ( semestreNo ) & " - " & Text.From ( ano ), 
+				
+				            //SemestreIndice 
+				            semestreIndice, 
+				
+				            //Semestre Offset 
+				            semestreOffset, 
+				
+				            //SemestreAnoNomeAtual 
+				            if semestreOffset = 0 then "Semestre Atual" 
+				                else if semestreOffset = -1 then "Semestre Anterior" 
+				                else if semestreOffset = 1 then "Próximo Semestre" 
+				                else semestreAno, 
+				            
+				            //BimestreDoAnoNum 
+				            bimestreNo, 
+				
+				            //BimestreAnoNum 
+				            ano * 100 + bimestreNo, 
+				
+				            //BimestreAnoNome 
+				            bimestreAno, 
+				
+				            //BimestreIndice 
+				            bimestreIndice, 
+				
+				            //BimestrOffset 
+				            bimestreOffset, 
+				
+				            //BimestreAnoNomeAtual 
+				            if bimestreOffset = 0 then "Bimestre Atual" 
+				                else if bimestreOffset = -1 then "Bimestre Anterior" 
+				                else if bimestreOffset = 1 then "Próximo Bimestre" 
+				                else bimestreAno, 
+				
+				            //FeriadoNome 
+				            feriado, 
+				
+				            //DiaUtilNum 
+				            diaUtilNo, 
+				
+				            //DiaUtilNome 
+				            if diaUtilNo = 0 then "Dia Não Útil" else "Dia Útil", 
+				            
+				            //EstacaoAnoNum 
+				            estacaoAnoNo, 
+				
+				            //EstacaoAnoNome 
+				            if estacaoAnoNo = 1 then "Outono" 
+				                else if estacaoAnoNo = 2 then "Inverno" 
+				                else if estacaoAnoNo = 3 then "Primavera" 
+				                else "Verão",
+				
+				            //MesFechamentoNum
+				            Date.Month ( dataReferenciaFechamento ),
+				
+				            //MesFechamentoNome
+				            Text.Proper ( Date.ToText ( dataReferenciaFechamento, [ Format = "MMMM", Culture = idioma ] ) ),
+				
+				            //MesFechamentoNomeAbrev
+				            Text.Proper ( Date.ToText ( dataReferenciaFechamento, [ Format = "MMM", Culture = idioma ] ) ),
+				
+				            //AnoFechamentoNum
+				            Date.Year ( dataReferenciaFechamento ),
+				
+				            //MesAnoFechamentoNum
+				            Date.Year ( dataReferenciaFechamento ) * 100 + Date.Month ( dataReferenciaFechamento ),
+				
+				            //MesAnoFechamentoNome
+				            Text.Proper ( Date.ToText ( dataReferenciaFechamento, [ Format = "MMM/yy", Culture = idioma ] ) )
+				            
+				
+				        }, 
+				
+				    //Gera a tabela calendário 
+				    calendario = #table ( 
+				
+				        //Nomes e tipos das colunas 
+				        type table [ 
+				            DataIndice = Int64.Type, 
+				            Data = date, 
+				            DataOffset = Int64.Type, 
+				            DataNomeAtual = text, 
+				            AnoNum = Int64.Type, 
+				            AnoInicio = date, 
+				            AnoFim = date, 
+				            AnoIndice = Int64.Type, 
+				            AnoDescrescenteNome = Int64.Type, 
+				            AnoDescrescenteNum = Int64.Type, 
+				            AnoFiscal = Int64.Type, 
+				            AnoOffset = Int64.Type, 
+				            AnoNomeAtual = text, 
+				            DiaDoMesNum = Int64.Type, 
+				            DiaDoAnoNum = Int64.Type, 
+				            DiaDaSemanaNum = Int64.Type, 
+				            DiaDaSemanaNome = text, 
+				            DiaDaSemanaNomeAbrev = text, 
+				            DiaDaSemanaNomeIniciais = text,
+				            MesNum = Int64.Type, 
+				            MesNome = text, 
+				            MesNomeAbrev = text, 
+				            MesNomeIniciais = text, 
+				            MesAnoNum = Int64.Type, 
+				            MesAnoNome = text, 
+				            MesDiaNum = Int64.Type, 
+				            MesDiaNome = text, 
+				            MesInicio = date, 
+				            MesFim = date, 
+				            MesIndice = Int64.Type, 
+				            MesOffset = Int64.Type, 
+				            MesNomeAtual = text, 
+				            MesNomeAbrevAtual = text, 
+				            MesAnoNomeAtual = text, 
+				            TrimestreNum = Int64.Type, 
+				            TrimestreInicio = date, 
+				            TrimestreFim = date, 
+				            TrimestreAnoNum = Int64.Type,
+				            TrimestreAnoNome = text, 
+				            TrimestreIndice = Int64.Type, 
+				            TrimestreOffset = Int64.Type, 
+				            TrimestreAnoNomeAtual = text, 
+				            SemanaIsoNum = Int64.Type,
+				            AnoIsoNum = Int64.Type, 
+				            SemanaIsoAnoNum = Int64.Type, 
+				            SemanaIsoAnoNome = text, 
+				            SemanaIsoInicio = date, 
+				            SemanaIsoFim = date, 
+				            SemanaIsoIndice = Int64.Type, 
+				            SemanaIsoOffset = Int64.Type, 
+				            SemanaIsoAnoNomeAtual = text, 
+				            SemanaNum = Int64.Type, 
+				            SemanaAnoNum = Int64.Type, 
+				            SemanaAnoNome = text, 
+				            SemanaInicio = date, 
+				            SemanaFim = date, 
+				            SemanaPeriodo = text,
+				            SemanaIndice = Int64.Type, 
+				            SemanaOffset = Int64.Type, 
+				            SemanaAnoNomeAtual = text, 
+				            SemanaDoMesNum = Int64.Type, 
+				            AnoSemanalNum = Int64.Type, 
+				            MesSemanalNum = Int64.Type, 
+				            MesSemanalNome = text, 
+				            MesSemanalNomeAbrev = text, 
+				            MesAnoSemanalNum = Int64.Type, 
+				            MesAnoSemanalNome = text, 
+				            SemanaDoMesPadraoNum = Int64.Type,
+				            SemanaDoMesAnoPadraoNome = text, 
+				            SemanaDoMesAnoPadraoNum = Int64.Type, 
+				            QuinzenaDoMesNum = Int64.Type,
+				            QuinzenaMesNum = Int64.Type, 
+				            QuinzenaMesNome = text, 
+				            QuinzenaMesAnoNum = Int64.Type, 
+				            QuinzenaMesAnoNome = text, 
+				            QuinzenaIndice = Int64.Type, 
+				            QuinzenaOffset = Int64.Type, 
+				            QuinzenaMesAnoNomeAtual = text, 
+				            SemestreDoAnoNum = Int64.Type, 
+				            SemestreAnoNum = Int64.Type, 
+				            SemestreAnoNome = text, 
+				            SemestreIndice = Int64.Type, 
+				            SemestreOffset = Int64.Type, 
+				            SemestreAnoNomeAtual = text,
+				            BimestreDoAnoNum = Int64.Type, 
+				            BimestreAnoNum = Int64.Type, 
+				            BimestreAnoNome = text, 
+				            BimestreIndice = Int64.Type, 
+				            BimestreOffset = Int64.Type, 
+				            BimestreAnoNomeAtual = text, 
+				            FeriadoNome = text, 
+				            DiaUtilNum = Int64.Type, 
+				            DiaUtilNome = text, 
+				            EstacaoAnoNum = Int64.Type, 
+				            EstacaoAnoNome = text, 
+				            MesFechamentoNum = Int64.Type,
+				            MesFechamentoNome = text, 
+				            MesFechamentoNomeAbrev = text, 
+				            AnoFechamentoNum = Int64.Type,
+				            MesAnoFechamentoNum = Int64.Type,
+				            MesAnoFechamentoNome = text 
+				        ], 
+				
+				        //Invoca função de transformação 
+				        List.Transform ( datasRange, fxLinhaCalendario ) 
+				    ),
+				    
+				    // Adiciona o número do dia útil do mês
+				    adDiaUtilMes = 
+				    let
+				        tabela = Table.Buffer ( 
+				            Table.SelectColumns ( 
+				                calendario, 
+				                { "DiaDoMesNum", "MesIndice", "DiaUtilNum" } 
+				            ) 
+				        ), 
+				
+				        addDiaUtilMes = Table.AddColumn (
+				            tabela, 
+				            "DiaUtilDoMes", 
+				            each let 
+				                __mesIndice = [MesIndice], 
+				                __DiaDoMes = [DiaDoMesNum] 
+				            in 
+				                List.Sum ( 
+				                    Table.SelectRows ( 
+				                        tabela, 
+				                        each [MesIndice] = __mesIndice  
+				                            and [DiaDoMesNum] <= __DiaDoMes 
+				                    )
+				                    [DiaUtilNum]
+				                ), 
+				            Int64.Type
+				        )[ [MesIndice], [DiaDoMesNum], [DiaUtilDoMes] ], 
+				
+				        join = Table.Join (
+				            calendario, { "MesIndice", "DiaDoMesNum" },
+				            addDiaUtilMes, { "MesIndice", "DiaDoMesNum" }
+				        ) 
+				    in
+				        join 
+				            
+				in
+				    adDiaUtilMes 
+				
+				in dCalendario 
+				
+				    //Fim
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

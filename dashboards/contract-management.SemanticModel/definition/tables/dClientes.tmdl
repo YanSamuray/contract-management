@@ -1,0 +1,65 @@
+table dClientes
+	lineageTag: c6ae8b0d-be41-4f5d-a687-10080d2ad815
+
+	column ID_Cliente
+		dataType: int64
+		formatString: 0
+		lineageTag: 00acbf4a-9dfa-49b9-9b25-9494b3f3c996
+		summarizeBy: none
+		sourceColumn: ID_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nome_Cliente
+		dataType: string
+		lineageTag: 4663a053-ab78-4431-b1c0-57789e89fad6
+		summarizeBy: none
+		sourceColumn: Nome_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Segmento
+		dataType: string
+		lineageTag: ee6ef2cc-f2d4-4ab4-9d2f-0b0b98d4b24d
+		summarizeBy: none
+		sourceColumn: Segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Localização
+		dataType: string
+		lineageTag: bd354c3e-ec10-4f1b-bf43-b0e8b0ae171b
+		summarizeBy: none
+		sourceColumn: Localização
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tamanho_Empresa
+		dataType: string
+		lineageTag: 3ddd15a3-4501-46d2-9371-6133396dbda0
+		summarizeBy: none
+		sourceColumn: Tamanho_Empresa
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dClientes = m
+		mode: import
+		queryGroup: Dimensões
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Dim_Clientes.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

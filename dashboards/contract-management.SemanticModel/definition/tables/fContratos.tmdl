@@ -1,0 +1,120 @@
+table fContratos
+	lineageTag: 91389370-1529-4437-8aee-b77043ccc470
+
+	column ID_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: e39e614e-1af9-49b4-8d46-bc18b4d76b00
+		summarizeBy: none
+		sourceColumn: ID_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Cliente
+		dataType: int64
+		formatString: 0
+		lineageTag: 62e11b20-4aa8-402b-8354-0aa739ee4f5b
+		summarizeBy: none
+		sourceColumn: ID_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Fornecedor
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c2ef74c-d69f-42b0-9e04-a141d2eeb24a
+		summarizeBy: none
+		sourceColumn: ID_Fornecedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Tipo_Contrato
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b0ae461-b721-424b-ad20-1f5365d08c4c
+		summarizeBy: none
+		sourceColumn: ID_Tipo_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Início
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 44e70a3c-c940-4d9e-b28e-d8354425e47c
+		summarizeBy: none
+		sourceColumn: Data_Início
+
+		variation Variation
+			isDefault
+			relationship: 2327787c-cc68-43a0-b2fd-58a5a8b32bc6
+			defaultHierarchy: LocalDateTable_8f8ed260-a4ed-4286-bba7-f1ab64479fff.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Data_Término
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8f1dd624-c86b-49e4-95f0-c9c992d6d777
+		summarizeBy: none
+		sourceColumn: Data_Término
+
+		variation Variation
+			isDefault
+			relationship: 48861bc2-fb64-48a7-932b-195cc8834cb5
+			defaultHierarchy: LocalDateTable_73bfbee9-a8f9-45e8-971d-4726768c0198.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Valor_Total
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: cbd64a2e-8b2d-4752-a2ed-c2945ac05f56
+		summarizeBy: sum
+		sourceColumn: Valor_Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Status_Contrato
+		dataType: string
+		lineageTag: d791415a-5a93-46ec-95d4-0827e10aa494
+		summarizeBy: none
+		sourceColumn: Status_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column Saldo_Contrato
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 274da2bd-2612-440c-8eb5-bea33fea360f
+		summarizeBy: sum
+		sourceColumn: Saldo_Contrato
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	partition fContratos = m
+		mode: import
+		queryGroup: Fatos
+		source = ```
+				let
+				    Fonte = Csv.Document(
+				        database{[Name="Fato_Contratos.csv"]}[Content],
+				        [Delimiter=",", 
+				        Encoding=65001, 
+				        QuoteStyle=QuoteStyle.None]
+				    ),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Contrato", Int64.Type}, {"ID_Cliente", Int64.Type}, {"ID_Fornecedor", Int64.Type}, {"ID_Tipo_Contrato", Int64.Type}, {"Data_Início", type date}, {"Data_Término", type date}, {"Valor_Total", Currency.Type}, {"Saldo_Contrato", Currency.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_ResultType = Table
+

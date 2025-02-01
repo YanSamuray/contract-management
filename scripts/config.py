@@ -21,12 +21,12 @@ Faker.seed(0)
 # =============================================================================
 # PARÂMETROS DE GERAÇÃO
 # =============================================================================
-NUM_CLIENTES = 100
-NUM_FORNECEDORES = 50
-NUM_CONTRATOS = 200
-NUM_PAGAMENTOS = 500
-NUM_VIOLACOES = 100
-NUM_PROFISSIONAIS = 150
+NUM_CLIENTES = 10000
+NUM_FORNECEDORES = 1500
+NUM_CONTRATOS = 1000
+NUM_PAGAMENTOS = 50000
+NUM_VIOLACOES = 3000
+NUM_PROFISSIONAIS = 1500
 
 # =============================================================================
 # CAMINHOS (PATHS)
