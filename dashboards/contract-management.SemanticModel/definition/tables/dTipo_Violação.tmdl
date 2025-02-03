@@ -3,10 +3,13 @@ table dTipo_Violação
 
 	column ID_Tipo_Violação
 		dataType: int64
+		isHidden
 		formatString: 0
 		lineageTag: 95ec11c3-4bbf-492f-aa96-a963f28c87c7
 		summarizeBy: none
 		sourceColumn: ID_Tipo_Violação
+
+		changedProperty = IsHidden
 
 		annotation SummarizationSetBy = Automatic
 

@@ -88,8 +88,8 @@
         },
         {
           "location": {
-            "x": 94.1986474303497,
-            "y": 539.12709823474029
+            "x": 0,
+            "y": 508.12709823474029
           },
           "nodeIndex": "dTipo_Contrato",
           "nodeLineageTag": "bb884999-08cd-423f-afd2-776f571c2215",
@@ -101,8 +101,8 @@
         },
         {
           "location": {
-            "x": 10,
-            "y": -10
+            "x": 112,
+            "y": 0
           },
           "nodeIndex": "dTipo_Pagamento",
           "nodeLineageTag": "273282ac-1ae7-41ca-9b4d-0951e9e94640",
@@ -140,8 +140,8 @@
         },
         {
           "location": {
-            "x": 178.41754355699831,
-            "y": 170.46529444378757
+            "x": 130.41754355699831,
+            "y": 218.46529444378757
           },
           "nodeIndex": "fPagamentos",
           "nodeLineageTag": "07fc8a68-0125-4743-a58a-3c67e3ef7f4c",
@@ -167,8 +167,8 @@
       ],
       "name": "All tables",
       "zoomValue": 100,
-      "pinKeyFieldsToTop": false,
-      "showExtraHeaderInfo": false,
+      "pinKeyFieldsToTop": true,
+      "showExtraHeaderInfo": true,
       "hideKeyFieldsWhenCollapsed": false,
       "tablesLocked": false
     }
