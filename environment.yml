@@ -1,4 +1,4 @@
-name: geracao_ficticios
+name: contract_management
 channels:
   - defaults
   - conda-forge

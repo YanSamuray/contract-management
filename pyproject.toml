@@ -1,0 +1,17 @@
+[project]
+name = "contract-management"
+version = "0.1.0"
+description = "Projeto de gerenciamento de contratos através de Power BI onde os dados fictícios são gerados com Python."
+authors = [
+    {name = "YanSamuray",email = "yansamuray@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
